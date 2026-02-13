@@ -1,0 +1,4 @@
+baseURL = 'https://lakehousementorship.com/'
+languageCode = 'en-us'
+title = 'Lakehouse Mentorship'
+theme = 'xmin'
