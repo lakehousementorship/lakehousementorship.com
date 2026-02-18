@@ -1,0 +1,120 @@
+<div class="form-container">
+  <form method="POST" action="/api/submitIntakeForm">
+    <div class="input">
+      <label for="name">Full Name *</label>
+      <div class="input-wrapper">
+        <input id="name" name="name" type="text" minlength="5" required />
+        <span class="validity"></span>
+      </div>
+    </div>
+
+    <div class="input">
+      <label for="email">Email Address *</label>
+      <div class="input-wrapper">
+        <input id="email" name="email" type="email" pattern=".+@.+\..+" placeholder="example@example.com" required />
+        <span class="validity"></span>
+      </div>
+    </div>
+
+    <div class="input">
+      <label for="phone">Phone Number *</label>
+      <div class="input-wrapper">
+        <input id="phone" name="phone" type="tel" pattern="[0-9]{3}-{0,1}[0-9]{3}-{0,1}[0-9]{4}" placeholder="US number, like: 455-222-2222" required />
+        <span class="validity"></span>
+      </div>
+    </div>
+
+    <div class="input">
+      <label for="referers">How did you hear about us?</label>
+      <select id="referers" name="referers">
+        <option hidden disabled selected value></option>
+        <option value="Facebook">Facebook</option>
+        <option value="Twitter">Twitter</option>
+        <option value="Google">Google</option>
+        <option value="Friends">Friends</option>
+        <option value="Search">Search</option>
+      </select>
+    </div>
+
+    <div class="input">
+      <label for="body">Please describe what are you looking for:</label>
+      <textarea id="body" name="body" style="height: 50em;" placeholder="{{
+        `Example: Dear Sergei,
+
+We live in [Area, e.g., Winter Garden] and I saw your post in the Clermont Families group and thought it sounded perfect for my kid. Everything's changing so fast these days, and I want them to have that real-world guidance you talked about.
+
+A bit about us: My [son/daughter], [Child's Name], is [age] years old and super into [e.g., video games, building stuff with Legos, or just curious about drones]. They've been spending way too much time on their phone lately, and I'd love for them to learn some hands-on skills like [e.g., coding basics or DIY projects] while picking up those life lessons you mentioned. We're thinking [in-person days at the lakehouse or online sessions] would work best.
+
+We're available most [e.g., weekends or weekday afternoons after school]. Do you have spots open soon? Also, any quick thoughts on how this might help with [specific concern, e.g., building confidence or prepping for tech jobs]?
+
+Looking forward to chatting!
+
+Thanks!`
+      }}" minlength="25" required></textarea>
+    </div>
+
+    <button type="submit">Submit</button>
+    <div class="form-result"></div>
+  </form>
+  <script type="text/javascript">
+function escape(unsafe) {
+  return unsafe
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;")
+    .replaceAll("@", "&#64;");
+}
+document.querySelectorAll("form").forEach((f) => {
+  const resultDiv = f.querySelector('.form-result');
+
+  f.addEventListener('submit', async function (event) {
+    event.preventDefault();
+
+    // Disable button to not allow the user to press it again
+    const button = f.querySelector('button[type="submit"]');
+    button.disabled = true
+    button.textContent = 'Submitting...'
+
+    // Processing data
+    const formData = new FormData(f);
+    const name = formData.get('name');
+    const body = formData.get('body');
+
+    let error = '';
+    try {
+      const response = await fetch(f.action, {
+        method: f.method,
+        body: formData,
+      });
+      const text = await response.text();
+      console.log(response);
+      error = `${response.status} ${response.statusText}: ${text.substring(0,256)}`
+      if (response.ok) {
+        resultDiv.classList.add("form-success")
+        resultDiv.innerHTML = `
+            <h3>Submission successful!</h3>
+            <p>We will get back within 24h.</p>
+            <p><strong>Name:</strong> ${escape(name)}</p>
+            <p><strong>Message:</strong> <pre style="overflow:auto;">${escape(body)}</pre></p>
+        `;
+        f.reset();
+        const button = f.querySelector('button[type="submit"]');
+        button.disabled = false
+        button.textContent = 'Submit'
+        return;
+      }
+    } catch(e) {
+      console.error(e);
+    }
+    resultDiv.classList.add("form-fail")
+    resultDiv.innerHTML = `
+        <h3>Submission failed!</h3>
+        <p>Please try again tomorrow, when we will figure out the issue.</p>
+        <p><strong>Error:</strong> <pre style="overflow:auto;">${escape(error)}</pre></p>
+    `;
+  });
+});
+  </script>
+</div>

@@ -1,0 +1,43 @@
+{{ define "main" }}
+
+<div class="page-header">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.subtitle }}
+    <p>{{ . }}</p>
+    {{ end }}
+  </div>
+</div>
+
+<article class="page-content page-content-wide">
+
+  {{/* Direction icons banner */}}
+  <div class="content-illustration animate-in">
+    <img src="/images/directions.svg" class="page-svg"/>
+  </div>
+
+  {{ .Content }}
+
+  {{/* Intersection illustration: How directions combine */}}
+  <div class="content-illustration animate-in">
+    <img src="/images/drone.svg" class="page-svg"/>
+  </div>
+
+</article>
+
+{{ if .Site.Params.show_cta_on_pages | default true }}
+<section class="cta-section" id="get-started">
+  <div class="container">
+    <div class="section-header" style="margin-bottom:2rem;">
+      <h2>Which Direction Excites Your Child?</h2>
+    </div>
+    <p>Every journey is unique. Let's discover what sparks your child's curiosity and build from there.</p>
+    <div class="cta-buttons">
+      <a href="/contact/" class="btn-primary">Let's Talk Directions</a>
+      <a href="/pricing/" class="btn-outline">See Pricing</a>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ end }}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 800 250" xmlns="http://www.w3.org/2000/svg">
+ <rect width="800" height="250" rx="16" fill="linear-gradient(135deg, #E0F0F6, #FFF9E8)"/>
+ <defs>
+  <linearGradient id="aboutBg2">
+   <stop stop-color="#E0F0F6" offset="0"/>
+   <stop stop-color="#FFF9E8" offset="1"/>
+  </linearGradient>
+ </defs>
+ <rect width="800" height="250" rx="16" fill="url(#aboutBg2)"/>
+ <g fill="none">
+  <path d="m80 190q120-30 270-20t300-15q70-7 100 0" opacity=".5" stroke="#C8B898" stroke-linecap="round" stroke-width="18"/>
+  <path d="m80 190q120-30 270-20t300-15q70-7 100 0" opacity=".4" stroke="#D4C8A8" stroke-linecap="round" stroke-width="12"/>
+  <path d="m90 190q110-30 260-20t300-15q70-7 95 0" opacity=".6" stroke="#E8DCC0" stroke-dasharray="12,8" stroke-width="2"/>
+ </g>
+ <g transform="translate(60,138)">
+  <rect x="20" width="40" height="8" rx="1" fill="#fff"/>
+  <rect x="20" y="8" width="40" height="8" rx="1" fill="#0039a6"/>
+  <rect x="20" y="16" width="40" height="8" rx="1" fill="#d52b1e"/>
+  <rect x="18" width="3" height="44" rx="1" fill="#888"/>
+ </g>
+ <g transform="translate(726,102)">
+  <rect x="20" width="40" height="24" rx="1" fill="#b22234"/>
+  <g fill="#fff">
+   <rect x="20" y="3" width="40" height="3"/>
+   <rect x="20" y="9" width="40" height="3"/>
+   <rect x="20" y="15" width="40" height="3"/>
+   <rect x="20" y="21" width="40" height="3"/>
+  </g>
+  <rect x="20" width="18" height="13" fill="#3c3b6e"/>
+  <g transform="translate(20)" fill="#fff" font-size="3px">
+   <circle cx="4" cy="3" r="1"/>
+   <circle cx="9" cy="3" r="1"/>
+   <circle cx="14" cy="3" r="1"/>
+   <circle cx="6.5" cy="6" r="1"/>
+   <circle cx="11.5" cy="6" r="1"/>
+   <circle cx="4" cy="9" r="1"/>
+   <circle cx="9" cy="9" r="1"/>
+   <circle cx="14" cy="9" r="1"/>
+  </g>
+  <rect x="18" width="3" height="44" rx="1" fill="#888"/>
+ </g>
+ <g transform="translate(262,133)">
+  <rect x="-15" width="30" height="20" rx="3" fill="#444"/>
+  <rect x="-12" y="3" width="24" height="14" rx="1" fill="#85c3e8"/>
+  <rect x="-18" y="20" width="36" height="4" rx="1" fill="#555"/>
+ </g>
+ <g transform="translate(476,138)">
+  <rect x="-12" width="24" height="18" rx="1" fill="#d4b96a"/>
+  <polygon points="0 -14 16 0 -16 0" fill="#7a5c3e"/>
+  <rect x="-4" y="6" width="8" height="12" rx="1" fill="#5c3a1e"/>
+  <rect x="-15" y="18" width="30" height="5" rx="1" fill="#5a9fca"/>
+ </g>
+ <g transform="translate(660 118)">
+  <circle cy="-12" r="14" fill="#fee400"/>
+  <path d="m-10.608-2.9151 6.3205 21.786h9.7672l5.225-21.897z" fill="#ddd"/>
+  <g transform="translate(0,-12)" stroke="#f3da00" stroke-linecap="round" stroke-width="2">
+   <line y1="-20" y2="-25" opacity=".5"/>
+   <line x1="14" x2="18" y1="-14" y2="-18" opacity=".5"/>
+   <line x1="-14" x2="-18" y1="-14" y2="-18" opacity=".5"/>
+   <line x1="18" x2="23" opacity=".5"/>
+   <line x1="-18" x2="-23" opacity=".5"/>
+  </g>
+  <rect x="-5.3314" y="16.746" width="11.758" height="5.9632" rx="0" ry=".90803" fill="#8e8c70" stop-color="#000000"/>
+ </g>
+ <polygon points="750 152 760 155 750 158" fill="#C4A95A" opacity=".6"/>
+ <text x="400" y="235" fill="#6B6B6B" font-family="'Lora', serif" font-size="14" font-style="italic" text-anchor="middle">From Russia to Silicon Valley to the lakehouse — a journey of mentors and mastery</text>
+</svg>

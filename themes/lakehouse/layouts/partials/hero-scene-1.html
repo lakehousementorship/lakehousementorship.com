@@ -1,0 +1,15 @@
+{{/* Hero Scene 1: House in center, lake in front */}}
+<div class="hero-scene" id="heroScene">
+  <img src="/images/hero-01.svg" class="hero-svg"/>
+
+  <!-- Hero overlay content -->
+  <div class="hero-overlay">
+    <div class="hero-content">
+      <h1 class="hero-title">{{ .Site.Title }}</h1>
+      <p class="hero-tagline">{{ .Site.Params.tagline | default "Igniting curiosity. Building futures." }}</p>
+      {{ with .Site.Params.hero_cta_text }}
+      <a href="{{ $.Site.Params.hero_cta_link | default `#get-started` }}" class="hero-cta">{{ . }}</a>
+      {{ end }}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,9 @@
+name = "Lakehouse"
+license = "Apache 2.0"
+licenselink = "https://github.com/lakehousementorship/lakehousementorship.com/blob/master/LICENSE"
+description = "A cozy, light theme for Lakehouse Mentorship"
+homepage = "https://lakehousementorship.com"
+min_version = "0.112.0"
+
+[author]
+  name = "Sergei Parshev"

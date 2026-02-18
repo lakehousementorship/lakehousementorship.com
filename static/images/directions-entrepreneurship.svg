@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="570" height="200" version="1.1" viewBox="0 0 570 200" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient id="bgGrad" x2="400" y2="400" gradientTransform="scale(1.425 .5)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#E0F2F1" offset="0"/>
+   <stop stop-color="#FFF9E8" offset="1"/>
+  </linearGradient>
+  <linearGradient id="rocketBody" x1="32.583" x2="32.583" y1="-.44757" y2="64.719" gradientTransform="scale(.53709 1.8619)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#ECEFF1" offset="0"/>
+   <stop stop-color="#CFD8DC" offset="1"/>
+  </linearGradient>
+  <linearGradient id="flameGrad" x1="30.272" x2="30.272" y1="95.139" y2="122.89" gradientTransform="scale(.79282 1.2613)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#FF6D00" offset="0"/>
+   <stop stop-color="#FFAB00" offset=".5"/>
+   <stop stop-color="#FFF176" offset="1"/>
+  </linearGradient>
+  <linearGradient id="boardGrad" x1="-.75" x2="-.75" y1="-.75" y2="120.75" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#FAFAFA" offset="0"/>
+   <stop stop-color="#F5F5F5" offset="1"/>
+  </linearGradient>
+ </defs>
+ <rect width="570" height="200" rx="11.4" fill="url(#bgGrad)" stroke-width=".8441"/>
+ <g transform="translate(55,25)">
+  <g opacity=".3">
+   <ellipse cx="35" cy="165" rx="10" ry="8" fill="#ffe082">
+    <animate attributeName="ry" dur="0.5s" repeatCount="indefinite" values="8;14;8"/>
+    <animate attributeName="opacity" dur="0.5s" repeatCount="indefinite" values="0.3;0.15;0.3"/>
+   </ellipse>
+   <ellipse cx="35" cy="175" rx="6" ry="5" fill="#ffcc80" opacity=".2">
+    <animate attributeName="ry" dur="0.6s" repeatCount="indefinite" values="5;10;5"/>
+   </ellipse>
+  </g>
+  <path d="m35 0q-15 20-17 50v70h34v-70q-2-30-17-50z" fill="url(#rocketBody)" stroke="#b0bec5"/>
+  <path d="m35 0q-10 15-13 35h26q-3-20-13-35z" fill="#00695c"/>
+  <circle cx="35" cy="55" r="12" fill="#b2ebf2" stroke="#00838f" stroke-width="1.5"/>
+  <circle cx="35" cy="55" r="9" fill="#e0f7fa"/>
+  <circle cx="31" cy="51" r="3" fill="#fff" opacity=".6"/>
+  <rect x="18" y="80" width="34" height="4" rx="1" fill="#00695c" opacity=".7"/>
+  <rect x="18" y="90" width="34" height="4" rx="1" fill="#f44336" opacity=".7"/>
+  <path d="m18 105-18 30 18-10z" fill="#00695c"/>
+  <path d="m52 105 18 30-18-10z" fill="#00695c"/>
+  <path d="m27 110 8 30 8-30z" fill="#004d40" opacity=".5"/>
+  <path d="m24 120q4 20 11 35 7-15 11-35z" fill="url(#flameGrad)" opacity=".9">
+   <animate attributeName="d" dur="0.3s" repeatCount="indefinite" values="M24 120 Q28 140 35 155 Q42 140 46 120 Z;M24 120 Q30 145 35 160 Q40 145 46 120 Z;M24 120 Q28 140 35 155 Q42 140 46 120 Z"/>
+  </path>
+  <path d="m28 120q3 18 7 28 4-10 7-28z" fill="#fff176" opacity=".8">
+   <animate attributeName="d" dur="0.25s" repeatCount="indefinite" values="M28 120 Q31 138 35 148 Q39 138 42 120 Z;M28 120 Q32 142 35 152 Q38 142 42 120 Z;M28 120 Q31 138 35 148 Q39 138 42 120 Z"/>
+  </path>
+  <circle cx="30" cy="145" r="1.5" fill="#ffab00" opacity=".6">
+   <animate attributeName="cy" dur="0.8s" repeatCount="indefinite" values="140;160;140"/>
+   <animate attributeName="opacity" dur="0.8s" repeatCount="indefinite" values="0.6;0;0.6"/>
+  </circle>
+  <circle cx="40" cy="148" r="1" fill="#ff6d00" opacity=".5">
+   <animate attributeName="cy" dur="0.9s" repeatCount="indefinite" values="145;162;145"/>
+   <animate attributeName="opacity" dur="0.9s" repeatCount="indefinite" values="0.5;0;0.5"/>
+  </circle>
+  <g fill="#00695c" opacity=".3">
+   <circle cy="15" r="1.5">
+    <animate attributeName="opacity" dur="2s" repeatCount="indefinite" values="0.3;0.8;0.3"/>
+   </circle>
+   <circle cx="70" cy="25" r="1">
+    <animate attributeName="opacity" dur="2.5s" repeatCount="indefinite" values="0.3;0.8;0.3"/>
+   </circle>
+   <circle cx="-5" cy="45" r="1.2">
+    <animate attributeName="opacity" dur="1.8s" repeatCount="indefinite" values="0.3;0.8;0.3"/>
+   </circle>
+  </g>
+ </g>
+ <g transform="translate(165,25)">
+  <g stroke="#8d6e63" stroke-linecap="round" stroke-width="3">
+   <line x1="50" x2="25" y1="120" y2="165"/>
+   <line x1="70" x2="95" y1="120" y2="165"/>
+   <line x1="60" x2="60" y1="90" y2="165"/>
+  </g>
+  <rect width="120" height="120" rx="3" fill="url(#boardGrad)" stroke="#e0e0e0" stroke-width="1.5"/>
+  <polyline points="15 95 35 75 55 85 75 50 95 35 105 40" fill="none" stroke="#00695c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+  <path d="m15 95 20-20 20 10 20-35 20-15 10 5v55z" fill="#00695c" opacity=".1"/>
+  <rect x="10" y="8" width="65" height="6" rx="1" fill="#00695c" opacity=".4"/>
+  <rect x="10" y="18" width="45" height="4" rx="1" fill="#78909c" opacity=".3"/>
+  <g fill="#00695c">
+   <circle cx="15" cy="95" r="3" opacity=".7"/>
+   <circle cx="35" cy="75" r="3" opacity=".7"/>
+   <circle cx="55" cy="85" r="3" opacity=".7"/>
+   <circle cx="75" cy="50" r="3" opacity=".7"/>
+   <circle cx="95" cy="35" r="3" opacity=".7"/>
+  </g>
+  <g opacity=".5" stroke="#e0e0e0" stroke-width=".5">
+   <line x1="10" x2="110" y1="40" y2="40"/>
+   <line x1="10" x2="110" y1="60" y2="60"/>
+   <line x1="10" x2="110" y1="80" y2="80"/>
+   <line x1="10" x2="110" y1="100" y2="100"/>
+  </g>
+  <text x="105" y="18" fill="#00695c" font-family="sans-serif" font-size="14px" font-weight="bold" opacity=".5">$</text>
+ </g>
+ <g transform="translate(340,20)">
+  <ellipse cx="40" cy="150" rx="25" ry="5" opacity=".05"/>
+  <rect x="22" y="45" width="36" height="18" rx="5" fill="#455a64" stroke="#546e7a"/>
+  <circle cx="40" cy="63" r="4" fill="#263238" stroke="#455a64" stroke-width=".5"/>
+  <circle cx="40" cy="63" r="2.5" fill="#1565c0" opacity=".5"/>
+  <g stroke="#546e7a" stroke-linecap="round" stroke-width="2.5">
+   <line x1="25" x2="5" y1="48" y2="35"/>
+   <line x1="55" x2="75" y1="48" y2="35"/>
+   <line x1="25" x2="5" y1="58" y2="72"/>
+   <line x1="55" x2="75" y1="58" y2="72"/>
+  </g>
+  <g fill="#607d8b">
+   <circle cx="5" cy="35" r="5"/>
+   <circle cx="75" cy="35" r="5"/>
+   <circle cx="5" cy="72" r="5"/>
+   <circle cx="75" cy="72" r="5"/>
+  </g>
+  <g transform="translate(5,35)">
+   <ellipse rx="16" ry="2.5" fill="#00695c" opacity=".3">
+    <animateTransform attributeName="transform" dur="0.15s" repeatCount="indefinite" type="rotate" values="0;360"/>
+   </ellipse>
+  </g>
+  <g transform="translate(75,35)">
+   <ellipse rx="16" ry="2.5" fill="#00695c" opacity=".3">
+    <animateTransform attributeName="transform" dur="0.15s" repeatCount="indefinite" type="rotate" values="0;-360"/>
+   </ellipse>
+  </g>
+  <g transform="translate(5,72)">
+   <ellipse rx="16" ry="2.5" fill="#00695c" opacity=".3">
+    <animateTransform attributeName="transform" dur="0.15s" repeatCount="indefinite" type="rotate" values="0;-360"/>
+   </ellipse>
+  </g>
+  <g transform="translate(75,72)">
+   <ellipse rx="16" ry="2.5" fill="#00695c" opacity=".3">
+    <animateTransform attributeName="transform" dur="0.15s" repeatCount="indefinite" type="rotate" values="0;360"/>
+   </ellipse>
+  </g>
+  <circle cx="40" cy="48" r="1.5" fill="#4caf50">
+   <animate attributeName="fill" dur="2s" repeatCount="indefinite" values="#4CAF50;#FF5252;#4CAF50"/>
+  </circle>
+  <animateTransform attributeName="transform" dur="4s" repeatCount="indefinite" type="translate" values="340,20;340,16;340,20;340,24;340,20"/>
+ </g>
+ <g transform="translate(451.43 11.605)">
+  <circle cx="40" cy="40" r="38" fill="#fafafa" stroke="#00695c" stroke-width="2"/>
+  <circle cx="40" cy="40" r="34" fill="#fff" stroke="#b2dfdb"/>
+  <g stroke="#b2dfdb">
+   <line x1="40" x2="40" y1="8" y2="14"/>
+   <line x1="40" x2="40" y1="66" y2="72"/>
+   <line x1="8" x2="14" y1="40" y2="40"/>
+   <line x1="66" x2="72" y1="40" y2="40"/>
+  </g>
+  <g>
+   <polygon points="44 40 40 14 36 40" fill="#f44336"/>
+   <polygon points="44 40 40 66 36 40" fill="#cfd8dc"/>
+   <circle cx="40" cy="40" r="3" fill="#00695c"/>
+   <circle cx="40" cy="40" r="30" fill="none" stroke="#e0f2f1" stroke-width=".5"/>
+   <animateTransform attributeName="transform" dur="6s" repeatCount="indefinite" type="rotate" values="0,40,40;10,40,40;-5,40,40;0,40,40"/>
+  </g>
+  <g fill="#78909c" font-family="sans-serif" font-size="9px" text-anchor="middle">
+   <text x="40" y="14" fill="#00695c" font-family="sans-serif" font-size="10px" font-weight="bold" text-anchor="middle">N</text>
+   <text x="40" y="74">S</text>
+   <text x="10" y="44">W</text>
+   <text x="70" y="44">E</text>
+  </g>
+ </g>
+ <g transform="translate(451.52 98.104)">
+  <g fill="#e0f2f1">
+   <rect width="70" height="35" rx="10" stroke="#00695c"/>
+   <polygon points="15 35 20 45 25 35" stroke="#00695c"/>
+   <polygon points="16 34 20 43 24 34"/>
+  </g>
+  <g fill="#00695c">
+   <rect x="10" y="10" width="30" height="3" rx="1" opacity=".4"/>
+   <rect x="10" y="17" width="45" height="3" rx="1" opacity=".3"/>
+   <rect x="10" y="24" width="25" height="3" rx="1" opacity=".2"/>
+  </g>
+  <g fill="#fff3e0">
+   <rect x="20" y="50" width="65" height="30" rx="10" stroke="#ff8f00"/>
+   <polygon points="65 80 60 90 55 80" stroke="#ff8f00"/>
+   <polygon points="64 79 60 88 56 79"/>
+  </g>
+  <rect x="30" y="58" width="40" height="3" rx="1" fill="#ff8f00" opacity=".4"/>
+  <rect x="30" y="65" width="30" height="3" rx="1" fill="#ff8f00" opacity=".3"/>
+ </g>
+</svg>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="509" height="200" version="1.1" viewBox="0 0 509 200" xml:space="preserve">
+  <defs>
+    <linearGradient id="bgInfo" x2="0" y2="400" gradientTransform="scale(1.27 .5)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF9E8" offset="0"/>
+      <stop stop-color="#E8F6FD" offset="1"/>
+    </linearGradient>
+  </defs>
+  <rect width="509" height="200" rx="10.2" fill="url(#bgInfo)" stroke-width=".797"/>
+  <g transform="translate(100,74)">
+    <g fill="#c4a95a">
+      <rect x="-35" width="70" height="40" rx="2" fill="#f5f5f5" stroke="#e0e0e0"/>
+      <rect x="-25" y="10" width="40" height="3" rx="1" opacity=".5"/>
+      <rect x="-25" y="17" width="50" height="3" rx="1" opacity=".3"/>
+      <rect x="-25" y="24" width="30" height="3" rx="1" opacity=".2"/>
+      <animateTransform attributeName="transform" dur="4s" repeatCount="indefinite" type="translate" values="0,-60;0,-60;0,-20;0,0;0,0"/>
+    </g>
+    <rect x="-50" y="-10" width="100" height="65" rx="2.61" fill="#fff" stroke="#d4a017" stroke-width="2"/>
+    <path d="m-49.3-9.28 49.3 34.3 49.3-34.3" fill="#fff9e8" stroke="#d4a017" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <text y="80" fill="#2c3e50" font-family="Inter, sans-serif" font-size="11px" font-weight="600" text-anchor="middle">Message Us</text>
+  </g>
+  <g transform="translate(250,30)">
+    <path d="m-56 8.09 38.8 0.275 2.48 4.9 40 3.12 5.02-4.39 7.67 2.26 5.8 28.6 16.2 43.4-4.93 27.3-12.6 1.87-8.68-13.4-17-34.7 2-18.9-8.7-12.5-10.6-10.9-17.6 8.46-17.8-14.1-18.9 0.994z" fill="#e8f0e0" opacity=".705" stroke="#c4d4b8"/>
+    <path d="m28.4 48.2 9.47-0.38 5.89 5.09 3.02 9.52c-1.33 5.33-4.64 5.04-8.64 6.38l-6.58-1.74-4.96-1.84-4.48-10.6z" fill="#c8e6c9" opacity=".7" stroke="#81c784"/>
+    <ellipse cx="34.6" cy="59.2" rx="8" ry="3" opacity=".1">
+      <animate attributeName="rx" dur="2s" repeatCount="indefinite" values="8;6;8"/>
+    </ellipse>
+    <g transform="translate(34.8 31)">
+      <path d="m0-18c-10 0-16 8-16 18s16 28 16 28 16-18 16-28-6-18-16-18z" fill="#d4a017">
+        <animateTransform attributeName="transform" dur="2s" repeatCount="indefinite" type="translate" values="0,0;0,-4;0,0"/>
+      </path>
+      <circle cy="-6" r="6" fill="#fff">
+        <animateTransform attributeName="transform" dur="2s" repeatCount="indefinite" type="translate" values="0,0;0,-4;0,0"/>
+      </circle>
+    </g>
+    <text y="125" fill="#2c3e50" font-family="Inter, sans-serif" font-size="11px" font-weight="600" text-anchor="middle">Central Florida</text>
+  </g>
+  <g transform="translate(410,98)">
+    <circle r="38" fill="#fff" stroke="#d4a017" stroke-width="2.5"/>
+    <circle r="34" fill="#fff9e8"/>
+    <g stroke-linecap="round">
+      <g stroke="#c4a95a" stroke-width="2">
+        <line y1="-30" y2="-26"/>
+        <line x1="15" x2="13" y1="-26" y2="-22.5"/>
+        <line x1="26" x2="22.5" y1="-15" y2="-13"/>
+        <line x1="30" x2="26"/>
+        <line x1="26" x2="22.5" y1="15" y2="13"/>
+        <line x1="15" x2="13" y1="26" y2="22.5"/>
+        <line y1="30" y2="26"/>
+        <line x1="-15" x2="-13" y1="26" y2="22.5"/>
+        <line x1="-26" x2="-22.5" y1="15" y2="13"/>
+        <line x1="-30" x2="-26"/>
+        <line x1="-26" x2="-22.5" y1="-15" y2="-13"/>
+        <line x1="-15" x2="-13" y1="-26" y2="-22.5"/>
+      </g>
+      <line y2="-16" stroke="#555" stroke-width="2.5"/>
+      <line x2="14" y2="-14" stroke="#555" stroke-width="1.8"/>
+    </g>
+    <circle r="3" fill="#d4a017"/>
+    <text y="55" fill="#2c3e50" font-family="Inter, sans-serif" font-size="11px" font-weight="600" text-anchor="middle">Fast Response</text>
+  </g>
+  <g transform="translate(60)" fill="#fff176" opacity=".5">
+    <polygon points="83 40 85 46 80 42 75 46 77 40 72 36 78 36 80 30 82 36 88 36">
+      <animate attributeName="opacity" dur="3s" repeatCount="indefinite" values="0.3;0.8;0.3"/>
+    </polygon>
+    <polygon transform="scale(.7)" points="433 35 435 41 430 37 425 41 427 35 422 31 428 31 430 25 432 31 438 31">
+      <animate attributeName="opacity" dur="4s" repeatCount="indefinite" values="0.2;0.7;0.2"/>
+    </polygon>
+  </g>
+</svg>

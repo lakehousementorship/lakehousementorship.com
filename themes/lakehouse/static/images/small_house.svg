@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient id="contactBg2" y2="1">
+   <stop stop-color="#FFF9E8" offset="0"/>
+   <stop stop-color="#E8F6FD" offset="1"/>
+  </linearGradient>
+ </defs>
+ <rect width="800" height="200" rx="16" fill="url(#contactBg2)"/>
+ <g transform="translate(400,50)">
+  <path d="m-200 74.693v-26.807c8.9166 1.7655 49.109 8.8765 75 6.2606 29.47-2.9775 64.005-13.148 95-14.146 30.995-0.99851 78.202 9.8494 89.704 7.5s47.031-7.789 70.296-7.5c20.767 0.258 47.841-1.2068 70 4.7136v28.255z" fill="#008b20"/>
+  <rect x="-200" y="65" width="400" height="50" rx="8" fill="#5a9fca"/>
+  <line x1="-150" x2="-100" y1="80" y2="80" opacity=".3" stroke="#fff">
+   <animate attributeName="opacity" dur="4s" repeatCount="indefinite" values="0.3;0.1;0.3"/>
+  </line>
+  <line x1="80" x2="140" y1="85" y2="85" opacity=".25" stroke="#fff">
+   <animate attributeName="opacity" dur="5s" repeatCount="indefinite" values="0.25;0.08;0.25"/>
+  </line>
+  <rect x="-30" y="13" width="60" height="50" rx="2" fill="#d4b96a"/>
+  <polygon transform="translate(0,-2)" points="-38 15 0 -10 38 15" fill="#7a5c3e"/>
+  <rect x="-8" y="28" width="16" height="35" rx="1" fill="#5c3a1e"/>
+  <rect x="-25" y="22" width="10" height="10" rx="1" fill="#85c3e8" stroke="#c4a95a" stroke-width=".5"/>
+  <rect x="15" y="22" width="10" height="10" rx="1" fill="#85c3e8" stroke="#c4a95a" stroke-width=".5"/>
+  <line x1="-65" x2="-62" y1="59" y2="14" stroke="#8b7355" stroke-linecap="round" stroke-width="4"/>
+  <g fill="#43a047" stroke="#2e7d32" stroke-linecap="round" stroke-width="1.5">
+   <path d="m-62 14q-18-10-33 5">
+    <animateTransform attributeName="transform" dur="4s" repeatCount="indefinite" type="rotate" values="0,-62,20;2,-62,20;-1,-62,20;0,-62,20"/>
+   </path>
+   <path d="m-62 14q-18-10-33 5">
+    <animateTransform attributeName="transform" dur="4s" repeatCount="indefinite" type="rotate" values="0,-62,20;2,-62,20;-1,-62,20;0,-62,20"/>
+   </path>
+   <path d="m-62 14q12-14 22-2">
+    <animateTransform attributeName="transform" dur="5s" repeatCount="indefinite" type="rotate" values="0,-62,20;-2,-62,20;1,-62,20;0,-62,20"/>
+   </path>
+   <path d="m-62 14c-0.58826-10.667-0.09026-19 4-25">
+    <animateTransform attributeName="transform" dur="6s" repeatCount="indefinite" type="rotate" values="0,-62,20;1,-62,20;-1,-62,20;0,-62,20"/>
+   </path>
+  </g>
+  <circle cx="120" cy="-5" r="18" fill="#fff176" opacity=".4">
+   <animate attributeName="r" dur="5s" repeatCount="indefinite" values="18;20;18"/>
+  </circle>
+  <circle cx="120" cy="-5" r="10" fill="#ffee58"/>
+  <g>
+    <ellipse cx="-80" cy="75" rx="5" ry="2.5" fill="#fff"/>
+    <path d="m-77 75q2-4 1-6" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5"/>
+    <circle cx="-75.417" cy="68" r="2" fill="#fff"/>
+    <path d="m-73.768 68.077v0.99611l2.0172-0.52056z" fill="#fe9500"/>
+    <animateTransform attributeName="transform" dur="3s" repeatCount="indefinite" type="translate" values="0,0;0,-1;0,0;0,0.5;0,0"/>
+    <ellipse cx="-75.794" cy="67.436" rx=".44649" ry=".45383" stop-color="#000000" stroke-linejoin="round" stroke-width=".616"/>
+  </g>
+  <g transform="matrix(-1 0 0 1 180.82 0)">
+   <ellipse cx="90" cy="80" rx="4.5" ry="2.2" fill="#fff"/>
+   <path d="m92 80q2-4 1-6" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5"/>
+   <circle cx="93.524" cy="73" r="1.8" fill="#fff"/>
+   <ellipse cx="93.22" cy="72.521" rx=".44649" ry=".45383" stop-color="#000000" stroke-linejoin="round" stroke-width=".616"/>
+   <animateTransform attributeName="transform" dur="3.5s" repeatCount="indefinite" type="translate" values="0,0;0,-0.8;0,0;0,0.4;0,0"/>
+   <path d="m95 72.913v0.99611l2.1941-0.43912z" fill="#fe9500"/>
+  </g>
+  <g transform="translate(0,-2)" fill="none" opacity=".5" stroke="#555" stroke-linecap="round" stroke-width="1.2">
+   <path d="m0 0q-5-4-10 0">
+    <animate attributeName="d" dur="0.8s" repeatCount="indefinite" values="M0 0 Q-5 -4 -10 0;M0 0 Q-5 -1 -10 0;M0 0 Q-5 -4 -10 0"/>
+   </path>
+   <path d="m0 0q5-4 10 0">
+    <animate attributeName="d" dur="0.8s" repeatCount="indefinite" values="M0 0 Q5 -4 10 0;M0 0 Q5 -1 10 0;M0 0 Q5 -4 10 0"/>
+   </path>
+   <animateTransform attributeName="transform" dur="20s" repeatCount="indefinite" type="translate" values="-120,-10;0,-20;120,-10;200,-15"/>
+  </g>
+ </g>
+ <text x="400" y="180" fill="#2C3E50" font-family="'Playfair Display', serif" font-size="15" font-weight="600" text-anchor="middle">Your family is welcome at the lakehouse</text>
+</svg>

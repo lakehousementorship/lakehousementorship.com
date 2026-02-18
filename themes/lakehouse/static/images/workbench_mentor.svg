@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+ <rect width="800" height="300" rx="16" fill="url(#aboutBg1)"/>
+ <g transform="matrix(1.6022 0 0 2.4648 237.06 86.606)">
+  <rect width="80" height="3" rx=".5" fill="#8b7355"/>
+  <rect x="5" y="-8" width="8" height="8" rx="1" fill="#7b1fa2" opacity=".7"/>
+  <rect x="18" y="-6" width="6" height="6" rx="1" fill="#1976d2" opacity=".7"/>
+  <rect x="30" y="-10" width="5" height="10" rx="1" fill="#4caf50" opacity=".7"/>
+  <circle cx="45" cy="-4" r="4" fill="#d4b96a"/>
+  <rect x="55" y="-7" width="10" height="7" rx="1" fill="#e65100" opacity=".7"/>
+ </g>
+ <g transform="matrix(2.7342 0 0 2.6544 -653.06 -789.63)">
+  <g stroke="#c4a95a">
+   <rect x="388.77" y="320" width="50" height="35" rx="2" fill="#85c3e8" stroke-width="1.5"/>
+   <line x1="413.77" x2="413.77" y1="320" y2="355" stroke-width=".8"/>
+   <line x1="388.77" x2="438.77" y1="337" y2="337" stroke-width=".8"/>
+  </g>
+  <rect x="389.77" y="342" width="48" height="12" fill="#4caf50" opacity=".3"/>
+ </g>
+ <defs>
+  <linearGradient id="aboutBg1" y2="1">
+   <stop stop-color="#E8F6FD" offset="0"/>
+   <stop stop-color="#FFF9E8" offset="1"/>
+  </linearGradient>
+ </defs>
+ <rect x="228" y="180" width="346.2" height="10" rx="1.8546" fill="#8b7355" stroke-width=".78627"/>
+ <rect x="246" y="190" width="10" height="60" rx="2" fill="#7a6245"/>
+ <rect x="542" y="190" width="10" height="60" rx="2" fill="#7a6245"/>
+ <rect x="297" y="140" width="55" height="40" rx="2.2" fill="#444" stroke-width=".74162"/>
+ <rect x="299.75" y="145" width="49.5" height="30" rx="1.1" fill="#85c3e8" stroke-width=".74162"/>
+ <rect x="302" y="151" width="30" height="3" rx="1" fill="#4caf50"/>
+ <rect x="302" y="157" width="45" height="3" rx="1" fill="#fff176"/>
+ <rect x="302" y="163" width="25" height="3" rx="1" fill="#f48fb1"/>
+ <rect x="286" y="180" width="77" height="5" rx="1.1" fill="#555" stroke-width=".74162"/>
+ <rect x="420" y="155" width="40" height="28" rx="2" fill="#008884"/>
+ <rect x="424" y="159" width="6" height="5" rx="1" fill="#333"/>
+ <circle cx="450" cy="172" r="2.5" fill="#ff5252">
+  <animate attributeName="opacity" dur="2s" repeatCount="indefinite" values="1;0.3;1"/>
+ </circle>
+ <circle cx="444" cy="172" r="2.5" fill="#4caf50"/>
+ <path d="m460 168q20-8 30 2t5 5" fill="none" stroke="#e65100" stroke-width="1.5"/>
+ <path d="m460 162q15-12 25-4" fill="none" stroke="#1976d2" stroke-width="1.5"/>
+ <line x1="411.71" x2="420.99" y1="176.25" y2="149.25" stroke="#888" stroke-linecap="round" stroke-width="2.2145"/>
+ <circle cx="411.8" cy="176.25" r="2" fill="#ff5252">
+  <animate attributeName="opacity" dur="1.5s" repeatCount="indefinite" values="1;0.4;1"/>
+ </circle>
+ <g transform="matrix(1.5381 0 0 1.8125 511.99 165.38)">
+  <rect width="8" height="10" rx="1.5" fill="#d4b96a"/>
+  <g fill="none" stroke-linecap="round">
+   <path d="m8 2q4 0 4 4 0 3-4 3" stroke="#d4b96a" stroke-width="1.2"/>
+   <path d="m2-1q1-4 0-9" opacity=".3" stroke="#8b7355" stroke-width=".8">
+    <animate attributeName="d" dur="4s" repeatCount="indefinite" values="M2 -1 Q3 -5 2 -10;M2 -1 Q1 -5 3 -10;M2 -1 Q3 -5 2 -10"/>
+    <animate attributeName="opacity" dur="4s" repeatCount="indefinite" values="0.3;0.1;0.3"/>
+   </path>
+   <path d="m5-1q1-3 0-7" opacity=".25" stroke="#8b7355" stroke-width=".6">
+    <animate attributeName="d" dur="4.5s" repeatCount="indefinite" values="M5 -1 Q6 -4 5 -8;M5 -1 Q4 -4 6 -8;M5 -1 Q6 -4 5 -8"/>
+    <animate attributeName="opacity" dur="4.5s" repeatCount="indefinite" values="0.25;0.08;0.25"/>
+   </path>
+  </g>
+ </g>
+ <text x="400" y="275" fill="#2C3E50" font-family="'Playfair Display', serif" font-size="16" font-weight="600" text-anchor="middle">Mentorship in action — where curiosity meets guidance</text>
+ <g transform="translate(290,122)">
+  <circle r="22" fill="#d4b96a"/>
+  <circle r="20" fill="#f5edd6"/>
+  <circle cx="-5" cy="-3" r="2" fill="#555"/>
+  <circle cx="5" cy="-3" r="2" fill="#555"/>
+  <path d="m-5 5q5 5 10 0" fill="none" stroke="#555" stroke-width="1.5"/>
+  <path d="m-18-8q-2-14 18-16 20 2 18 16" fill="#8b6d4f"/>
+  <rect x="-15" y="22" width="30" height="45" rx="5" fill="#2e7d32"/>
+  <path d="m15 32c13.333 8.6667 17 6.7246 27 23.391" fill="none" stroke="#2e7d32" stroke-linecap="round" stroke-width="8"/>
+  <path d="m-15 32c-6.6667 12-14.333 12.667-11 26" fill="none" stroke="#2e7d32" stroke-linecap="round" stroke-width="8"/>
+  <circle cx="44" cy="58" r="6" fill="#f5edd6"/>
+  <circle cx="-26" cy="62" r="6" fill="#f5edd6"/>
+ </g>
+ <g transform="translate(444,138)">
+  <circle r="18" fill="#d4b96a"/>
+  <circle r="16" fill="#f5edd6"/>
+  <circle cx="-4" cy="-2" r="1.8" fill="#555"/>
+  <circle cx="4" cy="-2" r="1.8" fill="#555"/>
+  <path d="m-4 4q4 4 8 0" fill="none" stroke="#555" stroke-width="1.3"/>
+  <path d="m-14-6q-2-14 14-16 16 2 14 16" fill="#5c3a1e"/>
+  <rect x="-12" y="18" width="24" height="38" rx="4" fill="#1976d2"/>
+  <path d="m12 26c4 4 9.733 10.211 11.893 19" fill="none" stroke="#1976d2" stroke-linecap="round" stroke-width="7"/>
+  <path d="m-12 26c-7.7379 1.7957-15.333 8.3333-12 19" fill="none" stroke="#1976d2" stroke-linecap="round" stroke-width="7"/>
+  <circle cx="25.445" cy="46.5" r="5" fill="#f5edd6"/>
+  <circle cx="-23.445" cy="46.5" r="5" fill="#f5edd6"/>
+ </g>
+ <g stroke-linecap="round" stroke-linejoin="round">
+  <rect x="275" y="189" width="30" height="61.917" ry=".95159" stop-color="#000000" stroke-width=".6306"/>
+  <rect x="432" y="194" width="24" height="56.917" ry=".95159" stop-color="#000000" stroke-width=".616"/>
+  <rect x="414.35" y="159" width="5.6517" height="7.5" ry=".95159" stop-color="#000000" stroke-width=".616"/>
+ </g>
+ <g transform="translate(13.5,77.5)" fill="#fff176" opacity=".6">
+  <polygon transform="translate(-50.5,1.5)" points="383 72 385 79 380 74 375 79 377 72 371 67 378 67 380 60 382 67 389 67">
+   <animate attributeName="opacity" dur="3s" repeatCount="indefinite" values="0.6;1;0.6"/>
+  </polygon>
+  <polygon transform="matrix(.8 0 0 .8 -129.46 -12)" points="558 55 560 50 562 55 567 55 563 58 564 63 560 60 556 63 557 58 553 55" transform-origin="560 56">
+   <animate attributeName="opacity" dur="4s" repeatCount="indefinite" values="0.4;0.9;0.4"/>
+  </polygon>
+ </g>
+ <g transform="translate(372.3 164)">
+  <rect width="30" height="18" rx="1" fill="#f0e8d0"/>
+  <g fill="#2c3e50" opacity=".3">
+   <circle cx="5" cy="5" r=".8"/>
+   <circle cx="10" cy="5" r=".8"/>
+   <circle cx="15" cy="5" r=".8"/>
+   <circle cx="20" cy="5" r=".8"/>
+   <circle cx="25" cy="5" r=".8"/>
+   <circle cx="5" cy="10" r=".8"/>
+   <circle cx="10" cy="10" r=".8"/>
+   <circle cx="15" cy="10" r=".8"/>
+   <circle cx="20" cy="10" r=".8"/>
+   <circle cx="25" cy="10" r=".8"/>
+  </g>
+  <circle cx="15" cy="8" r="2" fill="#ff5252">
+   <animate attributeName="opacity" dur="1.5s" repeatCount="indefinite" values="1;0.2;1"/>
+  </circle>
+  <path d="m10.3 5q-5 7-10 10" fill="none" stroke="#e65100" stroke-linecap="round"/>
+  <path d="m19.7 10.25q5 6 10 8" fill="none" stroke="#1976d2" stroke-linecap="round"/>
+ </g>
+</svg>

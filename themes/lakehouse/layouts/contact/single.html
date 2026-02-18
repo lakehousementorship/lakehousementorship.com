@@ -1,0 +1,43 @@
+{{ define "main" }}
+
+<div class="page-header">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.subtitle }}
+    <p>{{ . }}</p>
+    {{ end }}
+  </div>
+</div>
+
+<article class="page-content page-content-wide">
+
+  {{/* Contact process illustration */}}
+  <div class="content-illustration animate-in">
+    <img src="/images/contact.svg" class="page-svg"/>
+  </div>
+
+  {{ .Content }}
+
+  {{/* Lakehouse invite illustration */}}
+  <div class="content-illustration animate-in">
+    <img src="/images/small_house.svg" class="page-svg"/>
+  </div>
+
+</article>
+
+{{ if .Site.Params.show_cta_on_pages | default true }}
+<section class="cta-section" id="get-started">
+  <div class="container">
+    <div class="section-header" style="margin-bottom:2rem;">
+      <h2>Don't Wait — Spots Are Limited</h2>
+    </div>
+    <p>Every journey begins with a conversation. Reach out today and let's discover your child's potential together.</p>
+    <div class="cta-buttons">
+      <a href="/contact" class="btn-primary">Contact us</a>
+      <a href="/" class="btn-outline">Back to Home</a>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ end }}

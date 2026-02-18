@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient id="bgFaq" x2="0" y2="1">
+   <stop stop-color="#E8F6FD" offset="0"/>
+   <stop stop-color="#FFF9E8" offset="1"/>
+  </linearGradient>
+  <radialGradient id="glowGrad" cx="0" cy="0" r="45" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#FFF176" stop-opacity=".6" offset="0"/>
+   <stop stop-color="#FFF176" stop-opacity="0" offset="1"/>
+  </radialGradient>
+ </defs>
+ <rect width="800" height="200" rx="16" fill="url(#bgFaq)"/>
+ <g font-family="'Playfair Display', serif" font-weight="700" text-anchor="middle">
+  <text x="120" y="110" fill="#C4A95A" font-size="80" opacity=".3">?</text>
+  <text x="414.2793" y="62.538303" fill="#c4a95a" font-size="80px" opacity=".3">?</text>
+  <text x="250" y="140" fill="#1976d2" font-size="55" opacity=".25">?</text>
+  <text x="680" y="100" fill="#2e7d32" font-size="60" opacity=".2">?</text>
+  <text x="60" y="60" fill="#C4A95A" font-size="30" opacity=".3">?</text>
+  <text x="740" y="160" fill="#1976d2" font-size="35" opacity=".2">?</text>
+  <text x="256.24719" y="53.20797" fill="#1976d2" font-size="35px" opacity=".2">?</text>
+ </g>
+ <g transform="translate(316,74)">
+  <rect x="-45" width="90" height="60" rx="12" fill="#fff" stroke="#c4a95a" stroke-width="2"/>
+  <path d="m-10 58.9 10 15 10-15" fill="#fff" stroke="#c4a95a" stroke-width="2"/>
+  <text y="42" fill="#c4a95a" font-family="'Playfair Display', serif" font-size="36px" font-weight="700" text-anchor="middle">?</text>
+ </g>
+ <g transform="translate(-44,34)" fill="none" opacity=".4" stroke="#c4a95a" stroke-width="2">
+  <path d="m415 82q35-5 65-15" stroke-dasharray="4, 3"/>
+  <polygon transform="rotate(-20.7 512 60.7)" points="478 60 478 50 485 54" fill="#c4a95a"/>
+ </g>
+ <g transform="translate(496,89)">
+  <circle r="45" fill="url(#glowGrad)">
+   <animate attributeName="r" dur="3s" repeatCount="indefinite" values="35;45;35"/>
+   <animate attributeName="opacity" dur="3s" repeatCount="indefinite" values="0.3;0.7;0.3"/>
+  </circle>
+  <path d="m0-30c-18 0-28 14-28 30 0 12 12 20 16 28h24c4-8 16-16 16-28 0-16-10-30-28-30z" fill="#fff176" stroke="#d4a017" stroke-width="1.5"/>
+  <rect x="-10" y="28" width="20" height="6" rx="2" fill="#bbb"/>
+  <rect x="-8" y="34" width="16" height="4" rx="2" fill="#999"/>
+  <rect x="-6" y="38" width="12" height="3" rx="1.5" fill="#bbb"/>
+  <g opacity=".5" stroke="#d4a017" stroke-linecap="round" stroke-width="1.5">
+   <line y1="-38" y2="-45">
+    <animate attributeName="opacity" dur="3s" repeatCount="indefinite" values="0.2;0.7;0.2"/>
+   </line>
+   <line x1="20" x2="28" y1="-32" y2="-38">
+    <animate attributeName="opacity" begin="0.3s" dur="3s" repeatCount="indefinite" values="0.2;0.7;0.2"/>
+   </line>
+   <line x1="-20" x2="-28" y1="-32" y2="-38">
+    <animate attributeName="opacity" begin="0.6s" dur="3s" repeatCount="indefinite" values="0.2;0.7;0.2"/>
+   </line>
+   <line x1="32" x2="40" y1="-10" y2="-12">
+    <animate attributeName="opacity" begin="0.9s" dur="3s" repeatCount="indefinite" values="0.2;0.7;0.2"/>
+   </line>
+   <line x1="-32" x2="-40" y1="-10" y2="-12">
+    <animate attributeName="opacity" begin="1.2s" dur="3s" repeatCount="indefinite" values="0.2;0.7;0.2"/>
+   </line>
+  </g>
+  <path d="m-5 2 4 5 9-11" fill="none" opacity=".6" stroke="#2e7d32" stroke-linecap="round" stroke-width="2.5">
+   <animate attributeName="opacity" dur="3s" repeatCount="indefinite" values="0;0.6;0"/>
+  </path>
+ </g>
+ <circle cx="160" cy="45" r="16" fill="#fff" opacity=".6" stroke="#e0e0e0"/>
+ <text x="160" y="51" fill="#C4A95A" font-family="Inter, sans-serif" font-size="16" font-weight="700" text-anchor="middle">?</text>
+ <circle cx="650" cy="140" r="14" fill="#fff" opacity=".5" stroke="#e0e0e0"/>
+ <text x="650" y="146" fill="#1976d2" font-family="Inter, sans-serif" font-size="14" font-weight="700" text-anchor="middle">?</text>
+ <circle cx="608" cy="41.9" r="14" fill="#fff" opacity=".5" stroke="#e0e0e0"/>
+ <text x="607.63245" y="47.947014" fill="#1976d2" font-family="Inter, sans-serif" font-size="14px" font-weight="700" text-anchor="middle">?</text>
+ <circle cx="80" cy="150" r="12" fill="#fff" opacity=".4" stroke="#e0e0e0"/>
+ <text x="80" y="155" fill="#2e7d32" font-family="Inter, sans-serif" font-size="12" font-weight="700" text-anchor="middle">?</text>
+ <g fill="#C4A95A" opacity=".2">
+  <circle cx="300" cy="160" r="4"/>
+  <circle cx="460" cy="170" r="3"/>
+  <circle cx="380" cy="180" r="2.5"/>
+ </g>
+</svg>

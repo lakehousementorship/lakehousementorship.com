@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 800 280" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient id="dirBg2" y2="1">
+   <stop stop-color="#FFF9E8" offset="0"/>
+   <stop stop-color="#E8F6FD" offset="1"/>
+  </linearGradient>
+ </defs>
+ <rect width="800" height="280" rx="16" fill="url(#dirBg2)"/>
+ <g transform="translate(400 120)">
+  <rect x="-20" y="-8" width="40" height="16" rx="4" fill="#444"/>
+  <rect x="-16" y="-5" width="32" height="10" rx="2" fill="#555"/>
+  <circle cy="8" r="5" fill="#333"/>
+  <circle cy="8" r="3" fill="#85C3E8"/>
+  <g stroke="#666" stroke-width="4">
+   <line x1="-20" x2="-70" y2="-30"/>
+   <line x1="20" x2="70" y2="-30"/>
+   <line x1="-20" x2="-70" y2="30"/>
+   <line x1="20" x2="70" y2="30"/>
+  </g>
+  <g fill="#888">
+   <circle cx="-70" cy="-30" r="8"/>
+   <circle cx="70" cy="-30" r="8"/>
+   <circle cx="-70" cy="30" r="8"/>
+   <circle cx="70" cy="30" r="8"/>
+  </g>
+  <g transform="translate(-70 -30)">
+   <ellipse rx="22" ry="4" fill="#999" opacity=".5">
+    <animateTransform attributeName="transform" dur="0.3s" repeatCount="indefinite" type="rotate" values="0;360"/>
+   </ellipse>
+  </g>
+  <g transform="translate(70 -30)">
+   <ellipse rx="22" ry="4" fill="#999" opacity=".5">
+    <animateTransform attributeName="transform" dur="0.3s" repeatCount="indefinite" type="rotate" values="0;-360"/>
+   </ellipse>
+  </g>
+  <g transform="translate(-70 30)">
+   <ellipse rx="22" ry="4" fill="#999" opacity=".5">
+    <animateTransform attributeName="transform" dur="0.3s" repeatCount="indefinite" type="rotate" values="0;-360"/>
+   </ellipse>
+  </g>
+  <g transform="translate(70 30)">
+   <ellipse rx="22" ry="4" fill="#999" opacity=".5">
+    <animateTransform attributeName="transform" dur="0.3s" repeatCount="indefinite" type="rotate" values="0;360"/>
+   </ellipse>
+  </g>
+  <circle cy="-4" r="2" fill="#4CAF50">
+   <animate attributeName="fill" dur="2s" repeatCount="indefinite" values="#4CAF50;#FF5252;#4CAF50"/>
+  </circle>
+ </g>
+ <g font-family="'Inter', sans-serif" font-size="11" font-weight="500">
+  <text x="150" y="57" fill="#1976d2">Programming</text>
+  <line x1="188.53" x2="310" y1="62.036" y2="94.964" opacity=".5" stroke="#1976d2" stroke-dasharray="4, 3"/>
+  <text x="580" y="65" fill="#E65100">3D Printed Frame</text>
+  <line x1="615" x2="490" y1="68" y2="95" opacity=".5" stroke="#E65100" stroke-dasharray="4,3"/>
+  <text x="148" y="196" fill="#2e7d32">Battery Safety</text>
+  <line x1="187.4" x2="314.99" y1="184.97" y2="145.03" opacity=".5" stroke="#2e7d32" stroke-dasharray="4, 3"/>
+  <text x="592" y="192" fill="#7b1fa2">Video Feed</text>
+  <line x1="610" x2="490" y1="183" y2="145" opacity=".5" stroke="#7B1FA2" stroke-dasharray="4,3"/>
+  <text x="345" y="230" fill="#00695C">Drone Photography Gig</text>
+  <line x1="400" x2="400" y1="214" y2="164" opacity=".5" stroke="#00695c" stroke-dasharray="4, 3"/>
+ </g>
+ <text x="400" y="265" fill="#2C3E50" font-family="'Playfair Display', serif" font-size="15" font-weight="600" text-anchor="middle">One project, five skills — that's holistic mentorship</text>
+</svg>

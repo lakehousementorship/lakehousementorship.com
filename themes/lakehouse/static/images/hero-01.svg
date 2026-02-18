@@ -1,0 +1,2604 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1600 700"
+   preserveAspectRatio="xMidYMid slice"
+   class="hero-svg"
+   aria-label="Lakehouse scene: a beautiful house on a lake with palm trees, birds, and sunshine"
+   version="1.1"
+   id="svg8221"
+   sodipodi:docname="hero-01_saved.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview8223"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="1.907168"
+     inkscape:cx="820.8506"
+     inkscape:cy="344.22767"
+     inkscape:window-width="1920"
+     inkscape:window-height="1060"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g8049" />
+  <defs
+     id="defs7587">
+    <linearGradient
+       id="skyGrad"
+       x1="0"
+       y1="0"
+       x2="0"
+       y2="1">
+      <stop
+         offset="0%"
+         stop-color="#87CEEB"
+         id="stop7532" />
+      <stop
+         offset="40%"
+         stop-color="#B0E0F6"
+         id="stop7534" />
+      <stop
+         offset="70%"
+         stop-color="#D4F0FC"
+         id="stop7536" />
+      <stop
+         offset="100%"
+         stop-color="#E8F6FD"
+         id="stop7538" />
+    </linearGradient>
+    <linearGradient
+       id="waterGrad"
+       x1="0"
+       y1="0"
+       x2="0"
+       y2="1">
+      <stop
+         offset="0%"
+         stop-color="#6CB4D9"
+         id="stop7541" />
+      <stop
+         offset="30%"
+         stop-color="#5A9FCA"
+         id="stop7543" />
+      <stop
+         offset="100%"
+         stop-color="#4A8AB8"
+         id="stop7545" />
+    </linearGradient>
+    <radialGradient
+       id="sunGlow"
+       cx="50%"
+       cy="50%"
+       r="50%">
+      <stop
+         offset="0%"
+         stop-color="#FFF9C4"
+         stop-opacity="1"
+         id="stop7548" />
+      <stop
+         offset="40%"
+         stop-color="#FFF176"
+         stop-opacity="0.8"
+         id="stop7550" />
+      <stop
+         offset="100%"
+         stop-color="#FFF9C4"
+         stop-opacity="0"
+         id="stop7552" />
+    </radialGradient>
+    <filter
+       id="cloudSoft">
+      <feGaussianBlur
+         in="SourceGraphic"
+         stdDeviation="2"
+         id="feGaussianBlur7555" />
+    </filter>
+    <filter
+       id="waterRipple">
+      <feTurbulence
+         type="fractalNoise"
+         baseFrequency="0.01 0.06"
+         numOctaves="3"
+         seed="2"
+         id="feTurbulence7558"
+         result="result1">
+        <animate
+           attributeName="baseFrequency"
+           values="0.01 0.06;0.012 0.065;0.01 0.06"
+           dur="8s"
+           repeatCount="indefinite" />
+      </feTurbulence>
+      <feDisplacementMap
+         in="SourceGraphic"
+         scale="6"
+         in2="result1"
+         id="feDisplacementMap7560" />
+    </filter>
+    <filter
+       id="reflectionBlur"
+       x="-0.010434783"
+       y="-0.014117647"
+       width="1.0208696"
+       height="1.0282353">
+      <feGaussianBlur
+         stdDeviation="1.5"
+         id="feGaussianBlur7563" />
+    </filter>
+    <pattern
+       id="grassPat"
+       x="0"
+       y="0"
+       width="20"
+       height="10"
+       patternUnits="userSpaceOnUse">
+      <rect
+         width="20"
+         height="10"
+         fill="#5BA84C"
+         id="rect7566" />
+      <line
+         x1="3"
+         y1="10"
+         x2="5"
+         y2="3"
+         stroke="#4A9A3C"
+         stroke-width="1.2"
+         id="line7568" />
+      <line
+         x1="10"
+         y1="10"
+         x2="11"
+         y2="4"
+         stroke="#6BC05A"
+         stroke-width="1"
+         id="line7570" />
+      <line
+         x1="16"
+         y1="10"
+         x2="17"
+         y2="5"
+         stroke="#4A9A3C"
+         stroke-width="1.1"
+         id="line7572" />
+    </pattern>
+    <filter
+       id="stuccoTexture">
+      <feTurbulence
+         type="fractalNoise"
+         baseFrequency="0.5"
+         numOctaves="4"
+         stitchTiles="stitch"
+         id="feTurbulence7575" />
+      <feColorMatrix
+         type="saturate"
+         values="0"
+         id="feColorMatrix7577"
+         result="result1" />
+      <feBlend
+         in="SourceGraphic"
+         mode="multiply"
+         result="textured"
+         in2="result1"
+         id="feBlend7579" />
+    </filter>
+    <radialGradient
+       id="windowGlow"
+       cx="210.58924"
+       cy="66.005273"
+       r="24.217762"
+       gradientTransform="scale(0.94971616,1.0529462)"
+       fx="210.58924"
+       fy="66.005273"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#FFF9C4"
+         stop-opacity="0.3"
+         id="stop7582" />
+      <stop
+         offset="100%"
+         stop-color="#FFF9C4"
+         stop-opacity="0"
+         id="stop7584" />
+    </radialGradient>
+  </defs>
+  <rect
+     x="0"
+     y="0"
+     width="1600"
+     height="700"
+     fill="url(#skyGrad)"
+     id="rect7589" />
+  <g
+     class="sun-group"
+     id="g7599">
+    <circle
+       cx="1250"
+       cy="100"
+       r="120"
+       fill="url(#sunGlow)"
+       class="sun-glow-outer"
+       opacity="0.5"
+       id="circle7591">
+      <animate
+         attributeName="r"
+         values="120;130;120"
+         dur="6s"
+         repeatCount="indefinite" />
+    </circle>
+    <circle
+       cx="1250"
+       cy="100"
+       r="60"
+       fill="url(#sunGlow)"
+       class="sun-glow-mid"
+       opacity="0.7"
+       id="circle7593">
+      <animate
+         attributeName="r"
+         values="60;65;60"
+         dur="4s"
+         repeatCount="indefinite" />
+    </circle>
+    <circle
+       cx="1250"
+       cy="100"
+       r="35"
+       fill="#FFF176"
+       class="sun-core"
+       id="circle7595" />
+    <circle
+       cx="1250"
+       cy="100"
+       r="32"
+       fill="#FFEE58"
+       id="circle7597" />
+  </g>
+  <path
+     d="M0 350 Q100 320 200 340 Q350 310 500 335 Q600 315 700 330 Q850 305 1000 325 Q1150 310 1300 330 Q1450 315 1600 340 L1600 400 L0 400 Z"
+     fill="#7CB872"
+     opacity="0.4"
+     id="path7601" />
+  <path
+     d="M0 360 Q150 340 300 355 Q450 330 600 350 Q750 335 900 345 Q1050 330 1200 350 Q1400 335 1600 355 L1600 400 L0 400 Z"
+     fill="#6BAF60"
+     opacity="0.5"
+     id="path7603" />
+  <g
+     class="clouds"
+     id="g7637">
+    <g
+       class="cloud cloud-1"
+       opacity="0.85"
+       id="g7613">
+      <ellipse
+         cx="250"
+         cy="90"
+         rx="70"
+         ry="25"
+         fill="white"
+         id="ellipse7605" />
+      <ellipse
+         cx="290"
+         cy="80"
+         rx="50"
+         ry="22"
+         fill="white"
+         id="ellipse7607" />
+      <ellipse
+         cx="210"
+         cy="85"
+         rx="45"
+         ry="20"
+         fill="white"
+         id="ellipse7609" />
+      <ellipse
+         cx="250"
+         cy="78"
+         rx="40"
+         ry="18"
+         fill="#F8FBFF"
+         id="ellipse7611" />
+      <animateTransform
+         attributeName="transform"
+         type="translate"
+         values="0,0;80,3;0,0"
+         dur="60s"
+         repeatCount="indefinite" />
+    </g>
+    <g
+       class="cloud cloud-2"
+       opacity="0.7"
+       id="g7621">
+      <ellipse
+         cx="700"
+         cy="60"
+         rx="90"
+         ry="28"
+         fill="white"
+         id="ellipse7615" />
+      <ellipse
+         cx="750"
+         cy="50"
+         rx="60"
+         ry="25"
+         fill="white"
+         id="ellipse7617" />
+      <ellipse
+         cx="660"
+         cy="55"
+         rx="55"
+         ry="22"
+         fill="white"
+         id="ellipse7619" />
+      <animateTransform
+         attributeName="transform"
+         type="translate"
+         values="0,0;-60,2;0,0"
+         dur="75s"
+         repeatCount="indefinite" />
+    </g>
+    <g
+       class="cloud cloud-3"
+       opacity="0.6"
+       id="g7629">
+      <ellipse
+         cx="1050"
+         cy="120"
+         rx="55"
+         ry="20"
+         fill="white"
+         id="ellipse7623" />
+      <ellipse
+         cx="1080"
+         cy="112"
+         rx="40"
+         ry="18"
+         fill="white"
+         id="ellipse7625" />
+      <ellipse
+         cx="1020"
+         cy="115"
+         rx="35"
+         ry="16"
+         fill="white"
+         id="ellipse7627" />
+      <animateTransform
+         attributeName="transform"
+         type="translate"
+         values="0,0;50,1;0,0"
+         dur="50s"
+         repeatCount="indefinite" />
+    </g>
+    <g
+       class="cloud cloud-4"
+       opacity="0.5"
+       id="g7635">
+      <ellipse
+         cx="400"
+         cy="150"
+         rx="40"
+         ry="14"
+         fill="white"
+         id="ellipse7631" />
+      <ellipse
+         cx="425"
+         cy="144"
+         rx="30"
+         ry="12"
+         fill="white"
+         id="ellipse7633" />
+      <animateTransform
+         attributeName="transform"
+         type="translate"
+         values="0,0;40,2;0,0"
+         dur="45s"
+         repeatCount="indefinite" />
+    </g>
+  </g>
+  <rect
+     x="0"
+     y="400"
+     width="1600"
+     height="300"
+     fill="url(#waterGrad)"
+     id="rect7639" />
+  <g
+     class="water-shimmer"
+     opacity="0.3"
+     id="g7659">
+    <line
+       x1="50"
+       y1="430"
+       x2="180"
+       y2="430"
+       stroke="white"
+       stroke-width="1.5"
+       opacity="0.5"
+       id="line7641">
+      <animate
+         attributeName="opacity"
+         values="0.5;0.2;0.5"
+         dur="4s"
+         repeatCount="indefinite" />
+    </line>
+    <line
+       x1="300"
+       y1="460"
+       x2="450"
+       y2="460"
+       stroke="white"
+       stroke-width="1"
+       opacity="0.4"
+       id="line7643">
+      <animate
+         attributeName="opacity"
+         values="0.4;0.1;0.4"
+         dur="5s"
+         repeatCount="indefinite" />
+    </line>
+    <line
+       x1="600"
+       y1="445"
+       x2="750"
+       y2="445"
+       stroke="white"
+       stroke-width="1.5"
+       opacity="0.45"
+       id="line7645">
+      <animate
+         attributeName="opacity"
+         values="0.45;0.15;0.45"
+         dur="3.5s"
+         repeatCount="indefinite" />
+    </line>
+    <line
+       x1="900"
+       y1="470"
+       x2="1050"
+       y2="470"
+       stroke="white"
+       stroke-width="1"
+       opacity="0.35"
+       id="line7647">
+      <animate
+         attributeName="opacity"
+         values="0.35;0.1;0.35"
+         dur="6s"
+         repeatCount="indefinite" />
+    </line>
+    <line
+       x1="1200"
+       y1="440"
+       x2="1380"
+       y2="440"
+       stroke="white"
+       stroke-width="1.2"
+       opacity="0.4"
+       id="line7649">
+      <animate
+         attributeName="opacity"
+         values="0.4;0.15;0.4"
+         dur="4.5s"
+         repeatCount="indefinite" />
+    </line>
+    <line
+       x1="150"
+       y1="500"
+       x2="320"
+       y2="500"
+       stroke="white"
+       stroke-width="1"
+       opacity="0.3"
+       id="line7651">
+      <animate
+         attributeName="opacity"
+         values="0.3;0.1;0.3"
+         dur="5.5s"
+         repeatCount="indefinite" />
+    </line>
+    <line
+       x1="500"
+       y1="520"
+       x2="680"
+       y2="520"
+       stroke="white"
+       stroke-width="0.8"
+       opacity="0.25"
+       id="line7653">
+      <animate
+         attributeName="opacity"
+         values="0.25;0.08;0.25"
+         dur="7s"
+         repeatCount="indefinite" />
+    </line>
+    <line
+       x1="1000"
+       y1="510"
+       x2="1150"
+       y2="510"
+       stroke="white"
+       stroke-width="1"
+       opacity="0.3"
+       id="line7655">
+      <animate
+         attributeName="opacity"
+         values="0.3;0.1;0.3"
+         dur="4s"
+         repeatCount="indefinite" />
+    </line>
+    <line
+       x1="1350"
+       y1="490"
+       x2="1520"
+       y2="490"
+       stroke="white"
+       stroke-width="0.8"
+       opacity="0.25"
+       id="line7657">
+      <animate
+         attributeName="opacity"
+         values="0.25;0.08;0.25"
+         dur="5s"
+         repeatCount="indefinite" />
+    </line>
+  </g>
+  <path
+     d="M0 370 Q100 365 200 380 Q300 390 380 400 L0 400 Z"
+     fill="#5BA84C"
+     id="path7661" />
+  <path
+     d="M0 375 Q80 370 160 382 Q250 393 350 400 L0 400 Z"
+     fill="#4D9640"
+     id="path7663" />
+  <path
+     d="M1100 400 Q1200 385 1350 375 Q1500 365 1600 370 L1600 400 Z"
+     fill="#5BA84C"
+     id="path7665" />
+  <path
+     d="M1150 400 Q1280 390 1400 378 Q1520 370 1600 375 L1600 400 Z"
+     fill="#4D9640"
+     id="path7667" />
+  <g
+     class="house-group"
+     transform="matrix(0.8391956,0,0,0.8391956,681.10567,173.56782)"
+     id="g7855">
+    <ellipse
+       cx="169.69812"
+       cy="225"
+       rx="210.30188"
+       ry="15"
+       fill="rgba(0,0,0,0.1)"
+       id="ellipse7669"
+       style="stroke-width:1.02543" />
+    <rect
+       x="-30"
+       y="135.28926"
+       width="130"
+       height="84.710739"
+       fill="#d4b96a"
+       id="rect7671"
+       style="stroke-width:0.840192" />
+    <rect
+       x="-30"
+       y="135"
+       width="130"
+       height="85.289261"
+       fill="rgba(0,0,0,0.05)"
+       id="rect7673"
+       style="stroke-width:0.843056" />
+    <rect
+       x="-15"
+       y="156.32231"
+       width="100"
+       height="63.966946"
+       rx="3"
+       fill="#f5f0e0"
+       stroke="#c4a95a"
+       stroke-width="1.68611"
+       id="rect7675" />
+    <line
+       x1="-15"
+       y1="174.53296"
+       x2="85"
+       y2="174.53296"
+       stroke="#c4a95a"
+       stroke-width="1"
+       id="line7677" />
+    <line
+       x1="-15"
+       y1="199.76648"
+       x2="85"
+       y2="199.76648"
+       stroke="#c4a95a"
+       stroke-width="1"
+       id="line7679" />
+    <polygon
+       points="35,55 110,100 -40,100 "
+       fill="#8b6d4f"
+       id="polygon7681"
+       transform="translate(0,35.748521)" />
+    <polygon
+       points="35,60 110,100 -40,100 "
+       fill="#7a5c3e"
+       id="polygon7683"
+       transform="translate(0,35.748521)" />
+    <rect
+       x="100"
+       y="30"
+       width="200"
+       height="190"
+       fill="#d4b96a"
+       id="rect7685" />
+    <rect
+       x="100"
+       y="30"
+       width="200"
+       height="190"
+       fill="rgba(0,0,0,0.03)"
+       id="rect7687" />
+    <rect
+       x="165"
+       y="30"
+       width="70"
+       height="190"
+       fill="#b8a67a"
+       opacity="0.6"
+       id="rect7689" />
+    <g
+       opacity="0.3"
+       id="g7703">
+      <rect
+         x="168"
+         y="35"
+         width="25"
+         height="12"
+         rx="2"
+         fill="#a89668"
+         id="rect7691" />
+      <rect
+         x="196"
+         y="35"
+         width="30"
+         height="12"
+         rx="2"
+         fill="#b0a070"
+         id="rect7693" />
+      <rect
+         x="168"
+         y="50"
+         width="30"
+         height="11"
+         rx="2"
+         fill="#b0a070"
+         id="rect7695" />
+      <rect
+         x="201"
+         y="50"
+         width="25"
+         height="11"
+         rx="2"
+         fill="#a89668"
+         id="rect7697" />
+      <rect
+         x="168"
+         y="64"
+         width="22"
+         height="12"
+         rx="2"
+         fill="#a89668"
+         id="rect7699" />
+      <rect
+         x="193"
+         y="64"
+         width="33"
+         height="12"
+         rx="2"
+         fill="#b0a070"
+         id="rect7701" />
+    </g>
+    <polygon
+       points="200,-40 315,30 85,30 "
+       fill="#8b6d4f"
+       id="polygon7705" />
+    <polygon
+       points="200,-35 315,30 85,30 "
+       fill="#7a5c3e"
+       id="polygon7707" />
+    <line
+       x1="200"
+       y1="-35"
+       x2="200"
+       y2="-40"
+       stroke="#6b4e30"
+       stroke-width="3"
+       id="line7709" />
+    <ellipse
+       cx="200"
+       cy="0"
+       rx="18"
+       ry="12"
+       fill="#f5f0e0"
+       stroke="#c4a95a"
+       stroke-width="1.5"
+       id="ellipse7711" />
+    <line
+       x1="192"
+       y1="0"
+       x2="208"
+       y2="0"
+       stroke="#c4a95a"
+       stroke-width="0.8"
+       id="line7713" />
+    <line
+       x1="194"
+       y1="-4"
+       x2="206"
+       y2="-4"
+       stroke="#c4a95a"
+       stroke-width="0.8"
+       id="line7715" />
+    <line
+       x1="194"
+       y1="4"
+       x2="206"
+       y2="4"
+       stroke="#c4a95a"
+       stroke-width="0.8"
+       id="line7717" />
+    <rect
+       x="175"
+       y="42"
+       width="50"
+       height="55"
+       rx="2"
+       fill="#85c3e8"
+       stroke="#c4a95a"
+       stroke-width="2"
+       id="rect7719" />
+    <path
+       d="m 175,42 q 25,-22 50,0"
+       fill="#85c3e8"
+       stroke="#c4a95a"
+       stroke-width="2"
+       id="path7721"
+       style="stroke-width:1.99953384;stroke-dasharray:none;stroke-linecap:round" />
+    <line
+       x1="200"
+       y1="25"
+       x2="200"
+       y2="97"
+       stroke="#c4a95a"
+       stroke-width="0.979796"
+       id="line7723" />
+    <line
+       x1="175"
+       y1="60"
+       x2="225"
+       y2="60"
+       stroke="#c4a95a"
+       stroke-width="1"
+       id="line7725" />
+    <line
+       x1="175"
+       y1="78"
+       x2="225"
+       y2="78"
+       stroke="#c4a95a"
+       stroke-width="1"
+       id="line7727" />
+    <rect
+       x="177"
+       y="44"
+       width="46"
+       height="51"
+       fill="url(#windowGlow)"
+       id="rect7729"
+       style="fill:url(#windowGlow)" />
+    <circle
+       cx="200"
+       cy="30"
+       r="5"
+       fill="#85c3e8"
+       stroke="#c4a95a"
+       stroke-width="1"
+       id="circle7731" />
+    <rect
+       x="180"
+       y="140"
+       width="40"
+       height="80"
+       rx="2"
+       fill="#5c3a1e"
+       stroke="#4a2e16"
+       stroke-width="2"
+       id="rect7733" />
+    <path
+       d="m 180,140 q 20,-15 40,0"
+       fill="#5c3a1e"
+       stroke="#4a2e16"
+       stroke-width="2"
+       id="path7735"
+       style="stroke-linecap:round" />
+    <rect
+       x="184.10042"
+       y="148.10042"
+       width="13.799159"
+       height="59.79916"
+       rx="0.98565423"
+       fill="#6b4830"
+       stroke="#4a2e16"
+       stroke-width="0.700841"
+       id="rect7741" />
+    <rect
+       x="202.10042"
+       y="148.10042"
+       width="13.799159"
+       height="59.79916"
+       rx="0.98565423"
+       fill="#6b4830"
+       stroke="#4a2e16"
+       stroke-width="0.700841"
+       id="rect7743" />
+    <circle
+       cx="198.38324"
+       cy="180"
+       r="1.5"
+       fill="#c4a95a"
+       id="circle7745" />
+    <g
+       id="g7765">
+      <rect
+         x="110"
+         y="50"
+         width="40"
+         height="50"
+         rx="2"
+         fill="#85c3e8"
+         stroke="#c4a95a"
+         stroke-width="2"
+         id="rect7753" />
+      <path
+         d="m 110,50 q 20,-15 40,0"
+         fill="#85c3e8"
+         stroke="#c4a95a"
+         stroke-width="2"
+         id="path7755" />
+      <line
+         x1="130"
+         y1="42.5"
+         x2="130"
+         y2="100"
+         stroke="#c4a95a"
+         stroke-width="0.947859"
+         id="line7757" />
+      <line
+         x1="110"
+         y1="75"
+         x2="150"
+         y2="75"
+         stroke="#c4a95a"
+         stroke-width="1"
+         id="line7759" />
+      <rect
+         x="102"
+         y="48"
+         width="8"
+         height="54"
+         rx="1"
+         fill="#7a5c3e"
+         id="rect7761" />
+      <rect
+         x="150"
+         y="48"
+         width="8"
+         height="54"
+         rx="1"
+         fill="#7a5c3e"
+         id="rect7763" />
+    </g>
+    <g
+       id="g7779">
+      <rect
+         x="250"
+         y="50"
+         width="40"
+         height="50"
+         rx="2"
+         fill="#85c3e8"
+         stroke="#c4a95a"
+         stroke-width="2"
+         id="rect7767" />
+      <path
+         d="m 250,50 q 20,-15 40,0"
+         fill="#85c3e8"
+         stroke="#c4a95a"
+         stroke-width="2"
+         id="path7769" />
+      <line
+         x1="270"
+         y1="42.5"
+         x2="270"
+         y2="100"
+         stroke="#c4a95a"
+         stroke-width="0.947859"
+         id="line7771" />
+      <line
+         x1="250"
+         y1="75"
+         x2="290"
+         y2="75"
+         stroke="#c4a95a"
+         stroke-width="1"
+         id="line7773" />
+      <rect
+         x="242"
+         y="48"
+         width="8"
+         height="54"
+         rx="1"
+         fill="#7a5c3e"
+         id="rect7775" />
+      <rect
+         x="290"
+         y="48"
+         width="8"
+         height="54"
+         rx="1"
+         fill="#7a5c3e"
+         id="rect7777" />
+    </g>
+    <g
+       id="g7791">
+      <rect
+         x="115"
+         y="140"
+         width="35"
+         height="45"
+         rx="2"
+         fill="#85c3e8"
+         stroke="#c4a95a"
+         stroke-width="2"
+         id="rect7781" />
+      <line
+         x1="132"
+         y1="140"
+         x2="132"
+         y2="185"
+         stroke="#c4a95a"
+         stroke-width="1"
+         id="line7783" />
+      <line
+         x1="115"
+         y1="162"
+         x2="150"
+         y2="162"
+         stroke="#c4a95a"
+         stroke-width="1"
+         id="line7785" />
+      <rect
+         x="107"
+         y="138"
+         width="8"
+         height="49"
+         rx="1"
+         fill="#7a5c3e"
+         id="rect7787" />
+      <rect
+         x="150"
+         y="138"
+         width="8"
+         height="49"
+         rx="1"
+         fill="#7a5c3e"
+         id="rect7789" />
+    </g>
+    <g
+       id="g7803">
+      <rect
+         x="250"
+         y="140"
+         width="35"
+         height="45"
+         rx="2"
+         fill="#85c3e8"
+         stroke="#c4a95a"
+         stroke-width="2"
+         id="rect7793" />
+      <line
+         x1="267"
+         y1="140"
+         x2="267"
+         y2="185"
+         stroke="#c4a95a"
+         stroke-width="1"
+         id="line7795" />
+      <line
+         x1="250"
+         y1="162"
+         x2="285"
+         y2="162"
+         stroke="#c4a95a"
+         stroke-width="1"
+         id="line7797" />
+      <rect
+         x="242"
+         y="138"
+         width="8"
+         height="49"
+         rx="1"
+         fill="#7a5c3e"
+         id="rect7799" />
+      <rect
+         x="285"
+         y="138"
+         width="8"
+         height="49"
+         rx="1"
+         fill="#7a5c3e"
+         id="rect7801" />
+    </g>
+    <g
+       fill="#3a3a3a"
+       opacity="0.7"
+       id="g7813">
+      <rect
+         x="168"
+         y="110"
+         width="5"
+         height="12"
+         rx="1"
+         id="rect7805" />
+      <circle
+         cx="170"
+         cy="108"
+         r="3"
+         fill="#fff9c4"
+         opacity="0.4"
+         id="circle7807" />
+      <rect
+         x="227"
+         y="110"
+         width="5"
+         height="12"
+         rx="1"
+         id="rect7809" />
+      <circle
+         cx="230"
+         cy="108"
+         r="3"
+         fill="#fff9c4"
+         opacity="0.4"
+         id="circle7811" />
+    </g>
+    <g
+       opacity="0.7"
+       id="g7847">
+      <ellipse
+         cx="160"
+         cy="218"
+         rx="20"
+         ry="6"
+         fill="#8b6d4f"
+         opacity="0.4"
+         id="ellipse7825" />
+      <circle
+         cx="150"
+         cy="215"
+         r="4"
+         fill="#4caf50"
+         id="circle7827" />
+      <circle
+         cx="158"
+         cy="213"
+         r="3"
+         fill="#66bb6a"
+         id="circle7829" />
+      <circle
+         cx="166"
+         cy="215"
+         r="3.5"
+         fill="#4caf50"
+         id="circle7831" />
+      <ellipse
+         cx="240"
+         cy="218"
+         rx="20"
+         ry="6"
+         fill="#8b6d4f"
+         opacity="0.4"
+         id="ellipse7833" />
+      <circle
+         cx="232"
+         cy="215"
+         r="3.5"
+         fill="#66bb6a"
+         id="circle7835" />
+      <circle
+         cx="240"
+         cy="213"
+         r="3"
+         fill="#4caf50"
+         id="circle7837" />
+      <circle
+         cx="248"
+         cy="215"
+         r="4"
+         fill="#66bb6a"
+         id="circle7839" />
+      <circle
+         cx="153"
+         cy="212"
+         r="1.5"
+         fill="#e57373"
+         id="circle7841" />
+      <circle
+         cx="243"
+         cy="211"
+         r="1.5"
+         fill="#e57373"
+         id="circle7843" />
+      <circle
+         cx="237"
+         cy="213"
+         r="1.2"
+         fill="#ef5350"
+         id="circle7845" />
+    </g>
+    <line
+       x1="100"
+       y1="130"
+       x2="170"
+       y2="130"
+       stroke="#e8dcc0"
+       stroke-width="1.5"
+       id="line7851" />
+    <line
+       x1="230"
+       y1="130"
+       x2="300"
+       y2="130"
+       stroke="#e8dcc0"
+       stroke-width="1.5"
+       id="line7853" />
+  </g>
+  <g
+     class="palm-tree palm-left"
+     transform="translate(481.87918,173.75)"
+     id="g7957">
+    <path
+       d="M 0,220 Q 5,180 -2,140 -5,100 3,60 6,30 0,0"
+       fill="none"
+       stroke="#8b7355"
+       stroke-width="14"
+       stroke-linecap="round"
+       id="path7857" />
+    <path
+       d="M 0,220 Q 5,180 -2,140 -5,100 3,60 6,30 0,0"
+       fill="none"
+       stroke="#9b8365"
+       stroke-width="10"
+       stroke-linecap="round"
+       id="path7859" />
+    <g
+       stroke="#7a6245"
+       stroke-width="1"
+       opacity="0.4"
+       id="g7881">
+      <line
+         x1="-6"
+         y1="200"
+         x2="6"
+         y2="198"
+         id="line7861" />
+      <line
+         x1="-6"
+         y1="180"
+         x2="7"
+         y2="177"
+         id="line7863" />
+      <line
+         x1="-5"
+         y1="160"
+         x2="6"
+         y2="158"
+         id="line7865" />
+      <line
+         x1="-6"
+         y1="140"
+         x2="5"
+         y2="138"
+         id="line7867" />
+      <line
+         x1="-5"
+         y1="120"
+         x2="6"
+         y2="118"
+         id="line7869" />
+      <line
+         x1="-5"
+         y1="100"
+         x2="6"
+         y2="98"
+         id="line7871" />
+      <line
+         x1="-4"
+         y1="80"
+         x2="5"
+         y2="78"
+         id="line7873" />
+      <line
+         x1="-4"
+         y1="60"
+         x2="5"
+         y2="58"
+         id="line7875" />
+      <line
+         x1="-3"
+         y1="40"
+         x2="4"
+         y2="38"
+         id="line7877" />
+      <line
+         x1="-3"
+         y1="20"
+         x2="4"
+         y2="18"
+         id="line7879" />
+    </g>
+    <g
+       class="frond frond-1"
+       transform-origin="0 0"
+       id="g7901">
+      <path
+         d="m 0,0 q -40,-20 -90,10 -20,10 -40,30"
+         fill="none"
+         stroke="#2e7d32"
+         stroke-width="3"
+         id="path7883" />
+      <path
+         d="m -20,-12 c -13.333333,-4 -26.666667,-2.666667 -40,4 -13.333333,6.6666667 -31.312063,14.8525714 -44.6454,25.519238 C -111.31206,24.185905 -119.28156,30.490156 -130,40"
+         fill="#43a047"
+         opacity="0.8"
+         id="path7885"
+         sodipodi:nodetypes="cscc" />
+      <path
+         d="m -20,-5 q -20,-9 -40,2 -20,11 -40,25 -15,10 -30,18"
+         fill="#388e3c"
+         opacity="0.6"
+         id="path7887" />
+      <g
+         stroke="#2e7d32"
+         stroke-width="0.5"
+         opacity="0.5"
+         id="g7899">
+        <line
+           x1="-30"
+           y1="-12"
+           x2="-35"
+           y2="-2"
+           id="line7889" />
+        <line
+           x1="-50"
+           y1="-10"
+           x2="-55"
+           y2="2"
+           id="line7891" />
+        <line
+           x1="-70"
+           y1="-2"
+           x2="-75"
+           y2="10"
+           id="line7893" />
+        <line
+           x1="-90"
+           y1="10"
+           x2="-95"
+           y2="22"
+           id="line7895" />
+        <line
+           x1="-110"
+           y1="24"
+           x2="-115"
+           y2="34"
+           id="line7897" />
+      </g>
+      <animateTransform
+         attributeName="transform"
+         type="rotate"
+         values="0,0,0;3,0,0;-1,0,0;0,0,0"
+         dur="5s"
+         repeatCount="indefinite" />
+    </g>
+    <g
+       class="frond frond-2"
+       transform-origin="0 0"
+       id="g7909">
+      <path
+         d="m 0,0 q -50,-30 -110,-15 -20,7 -40,20"
+         fill="none"
+         stroke="#2e7d32"
+         stroke-width="3"
+         id="path7903" />
+      <path
+         d="m -10,-18 q -40,-14 -70,-7 -30,7 -60,23"
+         fill="#4caf50"
+         opacity="0.7"
+         id="path7905" />
+      <path
+         d="m -10,-10 q -40,-18 -70,-10 -30,8 -70,25"
+         fill="#388e3c"
+         opacity="0.5"
+         id="path7907" />
+      <animateTransform
+         attributeName="transform"
+         type="rotate"
+         values="0,0,0;2,0,0;-2,0,0;0,0,0"
+         dur="4.5s"
+         repeatCount="indefinite" />
+    </g>
+    <g
+       class="frond frond-3"
+       transform-origin="0 0"
+       id="g7927">
+      <path
+         d="m 0,0 q 40,-15 80,15 20,15 40,35"
+         fill="none"
+         stroke="#2e7d32"
+         stroke-width="3"
+         id="path7911" />
+      <path
+         d="m 15,-10 q 25,-4 45,8 20,14 40,32 10,10 20,20"
+         fill="#43a047"
+         opacity="0.8"
+         id="path7913" />
+      <path
+         d="m 15,-3 q 25,-7 45,6 20,13 40,29 12,10 20,18"
+         fill="#388e3c"
+         opacity="0.6"
+         id="path7915" />
+      <g
+         stroke="#2e7d32"
+         stroke-width="0.5"
+         opacity="0.5"
+         id="g7925">
+        <line
+           x1="30"
+           y1="-10"
+           x2="35"
+           y2="0"
+           id="line7917" />
+        <line
+           x1="50"
+           y1="-5"
+           x2="55"
+           y2="5"
+           id="line7919" />
+        <line
+           x1="70"
+           y1="5"
+           x2="75"
+           y2="18"
+           id="line7921" />
+        <line
+           x1="90"
+           y1="20"
+           x2="95"
+           y2="32"
+           id="line7923" />
+      </g>
+      <animateTransform
+         attributeName="transform"
+         type="rotate"
+         values="0,0,0;-2,0,0;2,0,0;0,0,0"
+         dur="5.5s"
+         repeatCount="indefinite" />
+    </g>
+    <g
+       class="frond frond-4"
+       transform-origin="0 0"
+       id="g7935">
+      <path
+         d="m 0,0 q 30,-35 70,-35 30,5 60,25"
+         fill="none"
+         stroke="#2e7d32"
+         stroke-width="3"
+         id="path7929" />
+      <path
+         d="m 5,-15 q 25,-23 55,-25 30,4 60,22"
+         fill="#4caf50"
+         opacity="0.7"
+         id="path7931" />
+      <path
+         d="m 5,-8 q 25,-24 55,-27 30,5 70,25"
+         fill="#388e3c"
+         opacity="0.5"
+         id="path7933" />
+      <animateTransform
+         attributeName="transform"
+         type="rotate"
+         values="0,0,0;-3,0,0;1,0,0;0,0,0"
+         dur="4s"
+         repeatCount="indefinite" />
+    </g>
+    <g
+       class="frond frond-5"
+       transform-origin="0 0"
+       id="g7943">
+      <path
+         d="m 0,0 q 0,-45 5,-65 3,-15 5,-25"
+         fill="none"
+         stroke="#2e7d32"
+         stroke-width="3"
+         id="path7937" />
+      <path
+         d="M 0.67082039,-11 C -5,-21.490208 -7.8391554,-41.560699 -5,-59.779512 -2.1608446,-77.998325 7.9107514,-92.742695 12.910751,-98.076029"
+         fill="#43a047"
+         opacity="0.7"
+         id="path7939"
+         style="stroke-width:1.22474"
+         sodipodi:nodetypes="czc" />
+      <animateTransform
+         attributeName="transform"
+         type="rotate"
+         values="0,0,0;2,0,0;-2,0,0;0,0,0"
+         dur="6s"
+         repeatCount="indefinite" />
+    </g>
+    <g
+       class="frond frond-6"
+       transform-origin="0 0"
+       id="g7949">
+      <path
+         d="m 0,0 q -25,-40 -60,-45 -25,5 -50,25"
+         fill="none"
+         stroke="#2e7d32"
+         stroke-width="2.5"
+         id="path7945" />
+      <path
+         d="m -8,-18 q -17,-24 -47,-30 -25,4 -55,26"
+         fill="#4caf50"
+         opacity="0.6"
+         id="path7947" />
+      <animateTransform
+         attributeName="transform"
+         type="rotate"
+         values="0,0,0;1.5,0,0;-1.5,0,0;0,0,0"
+         dur="5.2s"
+         repeatCount="indefinite" />
+    </g>
+    <circle
+       cx="-5"
+       cy="5"
+       r="4"
+       fill="#8d6e41"
+       id="circle7951" />
+    <circle
+       cx="5"
+       cy="3"
+       r="3.5"
+       fill="#7d5e31"
+       id="circle7953" />
+    <circle
+       cx="0"
+       cy="8"
+       r="3"
+       fill="#8d6e41"
+       id="circle7955" />
+  </g>
+  <g
+     class="palm-tree palm-right"
+     transform="translate(1115.9373,161.73212)"
+     id="g8023">
+    <path
+       d="M 0,230 Q -3,190 2,150 5,110 0,70 -3,40 2,0"
+       fill="none"
+       stroke="#8b7355"
+       stroke-width="12"
+       stroke-linecap="round"
+       id="path7959" />
+    <path
+       d="M 0,230 Q -3,190 2,150 5,110 0,70 -3,40 2,0"
+       fill="none"
+       stroke="#9b8365"
+       stroke-width="8"
+       stroke-linecap="round"
+       id="path7961" />
+    <g
+       stroke="#7a6245"
+       stroke-width="0.8"
+       opacity="0.4"
+       id="g7985">
+      <line
+         x1="-5"
+         y1="210"
+         x2="5"
+         y2="208"
+         id="line7963" />
+      <line
+         x1="-5"
+         y1="190"
+         x2="6"
+         y2="188"
+         id="line7965" />
+      <line
+         x1="-5"
+         y1="170"
+         x2="5"
+         y2="168"
+         id="line7967" />
+      <line
+         x1="-4"
+         y1="150"
+         x2="6"
+         y2="148"
+         id="line7969" />
+      <line
+         x1="-5"
+         y1="130"
+         x2="5"
+         y2="128"
+         id="line7971" />
+      <line
+         x1="-4"
+         y1="110"
+         x2="5"
+         y2="108"
+         id="line7973" />
+      <line
+         x1="-4"
+         y1="90"
+         x2="5"
+         y2="88"
+         id="line7975" />
+      <line
+         x1="-3"
+         y1="70"
+         x2="4"
+         y2="68"
+         id="line7977" />
+      <line
+         x1="-3"
+         y1="50"
+         x2="4"
+         y2="48"
+         id="line7979" />
+      <line
+         x1="-2"
+         y1="30"
+         x2="3"
+         y2="28"
+         id="line7981" />
+      <line
+         x1="-2"
+         y1="10"
+         x2="3"
+         y2="8"
+         id="line7983" />
+    </g>
+    <g
+       class="frond"
+       transform-origin="2 0"
+       id="g7991">
+      <path
+         d="m 2,0 q -37,-18 -82,5 -20,13 -35,30"
+         fill="none"
+         stroke="#2e7d32"
+         stroke-width="2.5"
+         id="path7987" />
+      <path
+         d="m -15,-10 c -16.666667,-2.666667 -33.333333,0 -50,8 -17.701382,9.6286093 -32.73003,18.792531 -50,37"
+         fill="#43a047"
+         opacity="0.75"
+         id="path7989"
+         sodipodi:nodetypes="ccc" />
+      <animateTransform
+         attributeName="transform"
+         type="rotate"
+         values="0,2,0;3,2,0;-1,2,0;0,2,0"
+         dur="4.8s"
+         repeatCount="indefinite" />
+    </g>
+    <g
+       class="frond"
+       transform-origin="2 0"
+       id="g7997">
+      <path
+         d="m 2,0 q 38,-12 83,10 20,15 30,30"
+         fill="none"
+         stroke="#2e7d32"
+         stroke-width="2.5"
+         id="path7993" />
+      <path
+         d="M 16.943784,-5.7231617 C 34.862499,-7.8905177 63.756511,-2.215649 80.86936,7 c 13.721222,8.038467 17.868329,16.845622 35.19778,30.722908"
+         fill="#43a047"
+         opacity="0.75"
+         id="path7995"
+         sodipodi:nodetypes="ccc" />
+      <animateTransform
+         attributeName="transform"
+         type="rotate"
+         values="0,2,0;-2.5,2,0;1.5,2,0;0,2,0"
+         dur="5.3s"
+         repeatCount="indefinite" />
+    </g>
+    <g
+       class="frond"
+       transform-origin="2 0"
+       id="g8005">
+      <path
+         d="m 2,0 q 3,-40 8,-60 2,-15 0,-20"
+         fill="none"
+         stroke="#2e7d32"
+         stroke-width="2.5"
+         id="path7999" />
+      <path
+         d="M 11.921096,-78.895586 C 20.278953,-56.028683 13.988483,-38.672424 10,-27.417325 6.0115174,-16.162226 3.726881,-14.059494 2.8815916,-10.835119"
+         fill="#388e3c"
+         opacity="0.5"
+         id="path8003"
+         style="stroke-width:3.22685"
+         sodipodi:nodetypes="czc" />
+      <animateTransform
+         attributeName="transform"
+         type="rotate"
+         values="0,2,0;1.5,2,0;-1.5,2,0;0,2,0"
+         dur="5.8s"
+         repeatCount="indefinite" />
+    </g>
+    <g
+       class="frond"
+       transform-origin="2 0"
+       id="g8011">
+      <path
+         d="m 2,0 q -22,-35 -57,-40 -20,5 -40,22"
+         fill="none"
+         stroke="#2e7d32"
+         stroke-width="2.5"
+         id="path8007" />
+      <path
+         d="m -5,-16 q -15,-22 -45,-26 -20,4 -45,22"
+         fill="#4caf50"
+         opacity="0.6"
+         id="path8009" />
+      <animateTransform
+         attributeName="transform"
+         type="rotate"
+         values="0,2,0;2,2,0;-1,2,0;0,2,0"
+         dur="4.3s"
+         repeatCount="indefinite" />
+    </g>
+    <g
+       class="frond"
+       transform-origin="2 0"
+       id="g8017">
+      <path
+         d="m 2,0 q 33,-30 63,-30 25,5 45,22"
+         fill="none"
+         stroke="#2e7d32"
+         stroke-width="2.5"
+         id="path8013" />
+      <path
+         d="m 10,-14 q 25,-18 50,-20 25,6 50,24"
+         fill="#4caf50"
+         opacity="0.6"
+         id="path8015" />
+      <animateTransform
+         attributeName="transform"
+         type="rotate"
+         values="0,2,0;-2,2,0;2,2,0;0,2,0"
+         dur="5s"
+         repeatCount="indefinite" />
+    </g>
+    <circle
+       cx="-3"
+       cy="5"
+       r="3.5"
+       fill="#8d6e41"
+       id="circle8019" />
+    <circle
+       cx="5"
+       cy="4"
+       r="3"
+       fill="#7d5e31"
+       id="circle8021" />
+  </g>
+  <g
+     class="oak-tree"
+     transform="translate(1250.498,194.5)"
+     id="g8041">
+    <rect
+       x="-12"
+       y="80"
+       width="24"
+       height="120"
+       rx="4"
+       fill="#6b5035"
+       id="rect8025" />
+    <rect
+       x="-8"
+       y="80"
+       width="16"
+       height="120"
+       rx="3"
+       fill="#7b6045"
+       id="rect8027" />
+    <ellipse
+       cx="0"
+       cy="60"
+       rx="70"
+       ry="55"
+       fill="#3e8e35"
+       opacity="0.9"
+       id="ellipse8029" />
+    <ellipse
+       cx="-20"
+       cy="45"
+       rx="45"
+       ry="40"
+       fill="#4a9a40"
+       id="ellipse8031" />
+    <ellipse
+       cx="25"
+       cy="50"
+       rx="50"
+       ry="42"
+       fill="#3e8e35"
+       id="ellipse8033" />
+    <ellipse
+       cx="0"
+       cy="35"
+       rx="40"
+       ry="35"
+       fill="#56a84c"
+       opacity="0.8"
+       id="ellipse8035" />
+    <ellipse
+       cx="-10"
+       cy="65"
+       rx="30"
+       ry="15"
+       fill="#2e7d27"
+       opacity="0.3"
+       id="ellipse8037" />
+    <ellipse
+       cx="20"
+       cy="70"
+       rx="25"
+       ry="12"
+       fill="#2e7d27"
+       opacity="0.25"
+       id="ellipse8039" />
+  </g>
+  <g
+     class="bg-trees"
+     transform="translate(97.632656,242)"
+     id="g8049">
+    <rect
+       x="-5"
+       y="60"
+       width="10"
+       height="90"
+       fill="#6b5035"
+       id="rect8043" />
+    <ellipse
+       cx="0"
+       cy="40"
+       rx="35"
+       ry="40"
+       fill="#4a9a40"
+       opacity="0.7"
+       id="ellipse8045" />
+    <ellipse
+       cx="10"
+       cy="30"
+       rx="28"
+       ry="32"
+       fill="#56a84c"
+       opacity="0.6"
+       id="ellipse8047" />
+  </g>
+  <g
+     class="bg-trees"
+     transform="translate(180, 260)"
+     id="g8057">
+    <rect
+       x="-4"
+       y="50"
+       width="8"
+       height="80"
+       fill="#6B5035"
+       id="rect8051" />
+    <ellipse
+       cx="0"
+       cy="35"
+       rx="30"
+       ry="35"
+       fill="#4A9A40"
+       opacity="0.7"
+       id="ellipse8053" />
+    <ellipse
+       cx="-8"
+       cy="28"
+       rx="25"
+       ry="28"
+       fill="#56A84C"
+       opacity="0.6"
+       id="ellipse8055" />
+  </g>
+  <g
+     transform="translate(1035.1055,270.61551)"
+     id="g8073">
+    <rect
+       x="-3"
+       y="30"
+       width="6"
+       height="70"
+       fill="#6b5035"
+       id="rect8059" />
+    <ellipse
+       cx="0"
+       cy="20"
+       rx="20"
+       ry="22"
+       fill="#4a9a40"
+       opacity="0.8"
+       id="ellipse8061" />
+    <ellipse
+       cx="5"
+       cy="14"
+       rx="15"
+       ry="16"
+       fill="#56a84c"
+       opacity="0.7"
+       id="ellipse8063" />
+    <circle
+       cx="-8"
+       cy="10"
+       r="4"
+       fill="#f48fb1"
+       opacity="0.7"
+       id="circle8065" />
+    <circle
+       cx="8"
+       cy="8"
+       r="3.5"
+       fill="#f48fb1"
+       opacity="0.6"
+       id="circle8067" />
+    <circle
+       cx="0"
+       cy="5"
+       r="3"
+       fill="#f06292"
+       opacity="0.5"
+       id="circle8069" />
+    <circle
+       cx="12"
+       cy="15"
+       r="3"
+       fill="#f48fb1"
+       opacity="0.6"
+       id="circle8071" />
+  </g>
+  <g
+     class="birds-on-water"
+     id="g8145">
+    <g
+       class="bird-sitting bird-1"
+       transform="translate(350, 420)"
+       id="g8091">
+      <ellipse
+         cx="0"
+         cy="0"
+         rx="12"
+         ry="6"
+         fill="white"
+         id="ellipse8075" />
+      <ellipse
+         cx="0"
+         cy="-1"
+         rx="10"
+         ry="5"
+         fill="#F5F5F5"
+         id="ellipse8077" />
+      <path
+         d="M10 -3 Q14 -12 12 -16"
+         fill="none"
+         stroke="white"
+         stroke-width="3"
+         stroke-linecap="round"
+         id="path8079" />
+      <circle
+         cx="12"
+         cy="-17"
+         r="3.5"
+         fill="white"
+         id="circle8081" />
+      <circle
+         cx="13.5"
+         cy="-18"
+         r="1"
+         fill="#333"
+         id="circle8083" />
+      <path
+         d="M15 -17 L19 -16 L15 -15.5"
+         fill="#E8A020"
+         id="path8085" />
+      <path
+         d="m -10,-2 -6,-4 3,5"
+         fill="#ffffff"
+         id="path8087" />
+      <ellipse
+         cx="0"
+         cy="5"
+         rx="10"
+         ry="3"
+         fill="white"
+         opacity="0.15"
+         id="ellipse8089" />
+      <animateTransform
+         attributeName="transform"
+         type="translate"
+         values="350,420;350,418;350,420;350,421;350,420"
+         dur="3s"
+         repeatCount="indefinite" />
+    </g>
+    <g
+       class="bird-sitting bird-2"
+       transform="matrix(-1,0,0,1,405.44698,423.25)"
+       id="g8109">
+      <ellipse
+         cx="0"
+         cy="0"
+         rx="10"
+         ry="5"
+         fill="#ffffff"
+         id="ellipse8093" />
+      <ellipse
+         cx="0"
+         cy="-1"
+         rx="8"
+         ry="4"
+         fill="#f5f5f5"
+         id="ellipse8095" />
+      <path
+         d="m 8,-2 q 3,-8 1,-12"
+         fill="none"
+         stroke="#ffffff"
+         stroke-width="2.5"
+         stroke-linecap="round"
+         id="path8097" />
+      <circle
+         cx="9"
+         cy="-15"
+         r="3"
+         fill="#ffffff"
+         id="circle8099" />
+      <circle
+         cx="10.5"
+         cy="-15.5"
+         r="0.80000001"
+         fill="#333333"
+         id="circle8101" />
+      <path
+         d="m 12,-15 3,0.5 -3,1"
+         fill="#e8a020"
+         id="path8103" />
+      <path
+         d="m -8,-1 -4,-3 2,4"
+         fill="#ffffff"
+         id="path8105" />
+      <ellipse
+         cx="0"
+         cy="4"
+         rx="8"
+         ry="2.5"
+         fill="#ffffff"
+         opacity="0.15"
+         id="ellipse8107" />
+      <animateTransform
+         attributeName="transform"
+         type="translate"
+         values="420,435;420,433;420,435;420,436;420,435"
+         dur="3.5s"
+         repeatCount="indefinite" />
+    </g>
+    <g
+       class="bird-sitting bird-3"
+       transform="translate(380, 450)"
+       id="g8127">
+      <ellipse
+         cx="0"
+         cy="0"
+         rx="11"
+         ry="5.5"
+         fill="white"
+         id="ellipse8111" />
+      <ellipse
+         cx="0"
+         cy="-1"
+         rx="9"
+         ry="4.5"
+         fill="#F5F5F5"
+         id="ellipse8113" />
+      <path
+         d="M9 -3 Q13 -11 11 -15"
+         fill="none"
+         stroke="white"
+         stroke-width="2.5"
+         stroke-linecap="round"
+         id="path8115" />
+      <circle
+         cx="11"
+         cy="-16"
+         r="3.2"
+         fill="white"
+         id="circle8117" />
+      <circle
+         cx="12.5"
+         cy="-16.5"
+         r="0.9"
+         fill="#333"
+         id="circle8119" />
+      <path
+         d="M14 -16 L17 -15.5 L14 -14.8"
+         fill="#E8A020"
+         id="path8121" />
+      <path
+         d="m -9,-1.5 -5,-3.5 3,5"
+         fill="#ffffff"
+         id="path8123" />
+      <ellipse
+         cx="0"
+         cy="4.5"
+         rx="9"
+         ry="2.8"
+         fill="white"
+         opacity="0.15"
+         id="ellipse8125" />
+      <animateTransform
+         attributeName="transform"
+         type="translate"
+         values="380,450;380,448;380,450;380,451;380,450"
+         dur="4s"
+         repeatCount="indefinite" />
+    </g>
+    <g
+       class="bird-sitting bird-4"
+       transform="matrix(-1,0,0,1,374.55302,429.25)"
+       id="g8143">
+      <ellipse
+         cx="0"
+         cy="0"
+         rx="10"
+         ry="5"
+         fill="#ffffff"
+         id="ellipse8129" />
+      <path
+         d="M 6,-3 C 3.3333333,-7.6666667 3.2805923,-10.559177 4.1013242,-11.173037"
+         fill="none"
+         stroke="#ffffff"
+         stroke-width="2.5"
+         stroke-linecap="round"
+         id="path8131"
+         sodipodi:nodetypes="cc" />
+      <circle
+         cx="5"
+         cy="-11"
+         r="3"
+         fill="#ffffff"
+         id="circle8133" />
+      <circle
+         cx="6.5"
+         cy="-11.5"
+         r="0.80000001"
+         fill="#333333"
+         id="circle8135" />
+      <path
+         d=""
+         fill="#e8a020"
+         id="path8137" />
+      <path
+         d="m -8,-1 -5,-4 3,5"
+         fill="#ffffff"
+         id="path8139" />
+      <ellipse
+         cx="0"
+         cy="4"
+         rx="8"
+         ry="2.5"
+         fill="#ffffff"
+         opacity="0.15"
+         id="ellipse8141" />
+      <animateTransform
+         attributeName="transform"
+         type="translate"
+         values="450,445;450,443;450,445;450,446;450,445"
+         dur="3.2s"
+         repeatCount="indefinite" />
+      <path
+         d="m 7.6054437,-10.987667 3.0000023,0.5 -3.0000023,0.9999993"
+         fill="#e8a020"
+         id="path8103-3" />
+    </g>
+  </g>
+  <g
+     class="flying-birds"
+     opacity="0.55"
+     id="g1029">
+    <g
+       class="flying-bird"
+       id="g1015">
+      <path
+         d="M0 0 Q-8 -6 -16 0"
+         fill="none"
+         stroke="#555"
+         stroke-width="1.5"
+         stroke-linecap="round"
+         id="path1011">
+        <animate
+           attributeName="d"
+           values="M0 0 Q-8 -6 -16 0;M0 0 Q-8 -2 -16 0;M0 0 Q-8 -6 -16 0"
+           dur="0.8s"
+           repeatCount="indefinite" />
+      </path>
+      <path
+         d="M0 0 Q8 -6 16 0"
+         fill="none"
+         stroke="#555"
+         stroke-width="1.5"
+         stroke-linecap="round"
+         id="path1013">
+        <animate
+           attributeName="d"
+           values="M0 0 Q8 -6 16 0;M0 0 Q8 -2 16 0;M0 0 Q8 -6 16 0"
+           dur="0.8s"
+           repeatCount="indefinite" />
+      </path>
+      <animateTransform
+         attributeName="transform"
+         type="translate"
+         values="1650,150;1140,165;480,155;-150,170"
+         dur="76s"
+         repeatCount="indefinite" />
+    </g>
+    <g
+       class="flying-bird"
+       id="g1021">
+      <path
+         d="M0 0 Q-6 -5 -12 0"
+         fill="none"
+         stroke="#555"
+         stroke-width="1.2"
+         stroke-linecap="round"
+         id="path1017">
+        <animate
+           attributeName="d"
+           values="M0 0 Q-6 -5 -12 0;M0 0 Q-6 -1 -12 0;M0 0 Q-6 -5 -12 0"
+           dur="0.7s"
+           repeatCount="indefinite" />
+      </path>
+      <path
+         d="M0 0 Q6 -5 12 0"
+         fill="none"
+         stroke="#555"
+         stroke-width="1.2"
+         stroke-linecap="round"
+         id="path1019">
+        <animate
+           attributeName="d"
+           values="M0 0 Q6 -5 12 0;M0 0 Q6 -1 12 0;M0 0 Q6 -5 12 0"
+           dur="0.7s"
+           repeatCount="indefinite" />
+      </path>
+      <animateTransform
+         attributeName="transform"
+         type="translate"
+         values="1680,178;1210,192;820,182;400,175;-50,190"
+         dur="94s"
+         repeatCount="indefinite" />
+    </g>
+    <g
+       class="flying-bird"
+       id="g1027">
+      <path
+         d="M0 0 Q-7 -5 -14 0"
+         fill="none"
+         stroke="#555"
+         stroke-width="1.3"
+         stroke-linecap="round"
+         id="path1023">
+        <animate
+           attributeName="d"
+           values="M0 0 Q-7 -5 -14 0;M0 0 Q-7 -1.5 -14 0;M0 0 Q-7 -5 -14 0"
+           dur="0.75s"
+           repeatCount="indefinite" />
+      </path>
+      <path
+         d="M0 0 Q7 -5 14 0"
+         fill="none"
+         stroke="#555"
+         stroke-width="1.3"
+         stroke-linecap="round"
+         id="path1025">
+        <animate
+           attributeName="d"
+           values="M0 0 Q7 -5 14 0;M0 0 Q7 -1.5 14 0;M0 0 Q7 -5 14 0"
+           dur="0.75s"
+           repeatCount="indefinite" />
+      </path>
+      <animateTransform
+         attributeName="transform"
+         type="translate"
+         values="-50,160;600,148;1250,158;1750,145"
+         dur="81s"
+         repeatCount="indefinite" />
+    </g>
+    <g
+       class="flying-bird"
+       id="g10152">
+      <path
+         d="M0 0 Q-8 -6 -16 0"
+         fill="none"
+         stroke="#555"
+         stroke-width="1.2"
+         stroke-linecap="round"
+         id="path10112">
+        <animate
+           attributeName="d"
+           values="M0 0 Q-8 -6 -16 0;M0 0 Q-8 -2 -16 0;M0 0 Q-8 -6 -16 0"
+           dur="0.8s"
+           repeatCount="indefinite" />
+      </path>
+      <path
+         d="M0 0 Q8 -6 16 0"
+         fill="none"
+         stroke="#555"
+         stroke-width="1.2"
+         stroke-linecap="round"
+         id="path10132">
+        <animate
+           attributeName="d"
+           values="M0 0 Q8 -6 16 0;M0 0 Q8 -2 16 0;M0 0 Q8 -6 16 0"
+           dur="0.8s"
+           repeatCount="indefinite" />
+      </path>
+      <animateTransform
+         attributeName="transform"
+         type="translate"
+         values="-550,175;20,160;640,170;1210,170;1770,160"
+         dur="116s"
+         repeatCount="indefinite" />
+    </g>
+    <g
+       class="flying-bird"
+       id="g10212">
+      <path
+         d="M0 0 Q-6 -5 -12 0"
+         fill="none"
+         stroke="#555"
+         stroke-width="1.2"
+         stroke-linecap="round"
+         id="path10172">
+        <animate
+           attributeName="d"
+           values="M0 0 Q-6 -5 -12 0;M0 0 Q-6 -1 -12 0;M0 0 Q-6 -5 -12 0"
+           dur="0.7s"
+           repeatCount="indefinite" />
+      </path>
+      <path
+         d="M0 0 Q6 -5 12 0"
+         fill="none"
+         stroke="#555"
+         stroke-width="1.2"
+         stroke-linecap="round"
+         id="path10192">
+        <animate
+           attributeName="d"
+           values="M0 0 Q6 -5 12 0;M0 0 Q6 -1 12 0;M0 0 Q6 -5 12 0"
+           dur="0.7s"
+           repeatCount="indefinite" />
+      </path>
+      <animateTransform
+         attributeName="transform"
+         type="translate"
+         values="-650,190;0,175;720,182;1110,192;1760,178"
+         dur="104s"
+         repeatCount="indefinite" />
+    </g>
+    <g
+       class="flying-bird"
+       id="g10272">
+      <path
+         d="M0 0 Q-7 -5 -14 0"
+         fill="none"
+         stroke="#555"
+         stroke-width="1.3"
+         stroke-linecap="round"
+         id="path10232">
+        <animate
+           attributeName="d"
+           values="M0 0 Q-7 -5 -14 0;M0 0 Q-7 -1.5 -14 0;M0 0 Q-7 -5 -14 0"
+           dur="0.75s"
+           repeatCount="indefinite" />
+      </path>
+      <path
+         d="M0 0 Q7 -5 14 0"
+         fill="none"
+         stroke="#555"
+         stroke-width="1.3"
+         stroke-linecap="round"
+         id="path10252">
+        <animate
+           attributeName="d"
+           values="M0 0 Q7 -5 14 0;M0 0 Q7 -1.5 14 0;M0 0 Q7 -5 14 0"
+           dur="0.75s"
+           repeatCount="indefinite" />
+      </path>
+      <animateTransform
+         attributeName="transform"
+         type="translate"
+         values="-750,160;0,148;600,150;1150,158;1750,145"
+         dur="101s"
+         repeatCount="indefinite" />
+    </g>
+  </g>
+  <g
+     class="house-reflection"
+     transform="matrix(0.84233447,0,0,-0.29481706,681.17055,465.9211)"
+     opacity="0.2"
+     filter="url(#reflectionBlur)"
+     id="g8173">
+    <rect
+       x="100"
+       y="30"
+       width="200"
+       height="190"
+       fill="#d4b96a"
+       id="rect8167" />
+    <polygon
+       points="315,30 85,30 200,-35 "
+       fill="#7a5c3e"
+       id="polygon8169" />
+    <rect
+       x="-30"
+       y="100"
+       width="130"
+       height="120"
+       fill="#d4b96a"
+       id="rect8171" />
+  </g>
+  <g
+     class="dock"
+     transform="translate(550, 395)"
+     id="g8183">
+    <rect
+       x="0"
+       y="0"
+       width="60"
+       height="8"
+       rx="1"
+       fill="#8B7355"
+       id="rect8175" />
+    <rect
+       x="5"
+       y="8"
+       width="4"
+       height="20"
+       fill="#7A6245"
+       id="rect8177" />
+    <rect
+       x="50"
+       y="8"
+       width="4"
+       height="20"
+       fill="#7A6245"
+       id="rect8179" />
+    <rect
+       x="27"
+       y="8"
+       width="4"
+       height="18"
+       fill="#7A6245"
+       id="rect8181" />
+  </g>
+  <g
+     class="foreground-bushes"
+     id="g8195">
+    <ellipse
+       cx="50"
+       cy="398"
+       rx="40"
+       ry="15"
+       fill="#4A9A40"
+       id="ellipse8185" />
+    <ellipse
+       cx="30"
+       cy="395"
+       rx="25"
+       ry="12"
+       fill="#56A84C"
+       id="ellipse8187" />
+    <ellipse
+       cx="1500"
+       cy="395"
+       rx="50"
+       ry="18"
+       fill="#4A9A40"
+       id="ellipse8189" />
+    <ellipse
+       cx="1530"
+       cy="392"
+       rx="35"
+       ry="14"
+       fill="#56A84C"
+       id="ellipse8191" />
+    <ellipse
+       cx="1560"
+       cy="398"
+       rx="30"
+       ry="12"
+       fill="#4A9A40"
+       id="ellipse8193" />
+  </g>
+  <g
+     class="sun-rays"
+     opacity="0.15"
+     id="g8203">
+    <line
+       x1="1250"
+       y1="100"
+       x2="1350"
+       y2="200"
+       stroke="#FFF176"
+       stroke-width="2"
+       id="line8197">
+      <animate
+         attributeName="opacity"
+         values="0.15;0.05;0.15"
+         dur="5s"
+         repeatCount="indefinite" />
+    </line>
+    <line
+       x1="1250"
+       y1="100"
+       x2="1150"
+       y2="220"
+       stroke="#FFF176"
+       stroke-width="1.5"
+       id="line8199">
+      <animate
+         attributeName="opacity"
+         values="0.1;0.03;0.1"
+         dur="6s"
+         repeatCount="indefinite" />
+    </line>
+    <line
+       x1="1250"
+       y1="100"
+       x2="1380"
+       y2="150"
+       stroke="#FFF176"
+       stroke-width="1.5"
+       id="line8201">
+      <animate
+         attributeName="opacity"
+         values="0.12;0.04;0.12"
+         dur="4s"
+         repeatCount="indefinite" />
+    </line>
+  </g>
+  <g
+     class="water-sparkles"
+     id="g8219">
+    <circle
+       cx="500"
+       cy="430"
+       r="2"
+       fill="white"
+       opacity="0"
+       id="circle8205">
+      <animate
+         attributeName="opacity"
+         values="0;0.6;0"
+         dur="3s"
+         repeatCount="indefinite"
+         begin="0s" />
+    </circle>
+    <circle
+       cx="750"
+       cy="450"
+       r="1.5"
+       fill="white"
+       opacity="0"
+       id="circle8207">
+      <animate
+         attributeName="opacity"
+         values="0;0.5;0"
+         dur="4s"
+         repeatCount="indefinite"
+         begin="1s" />
+    </circle>
+    <circle
+       cx="1000"
+       cy="440"
+       r="2"
+       fill="white"
+       opacity="0"
+       id="circle8209">
+      <animate
+         attributeName="opacity"
+         values="0;0.7;0"
+         dur="3.5s"
+         repeatCount="indefinite"
+         begin="0.5s" />
+    </circle>
+    <circle
+       cx="1300"
+       cy="460"
+       r="1.5"
+       fill="white"
+       opacity="0"
+       id="circle8211">
+      <animate
+         attributeName="opacity"
+         values="0;0.5;0"
+         dur="5s"
+         repeatCount="indefinite"
+         begin="2s" />
+    </circle>
+    <circle
+       cx="600"
+       cy="470"
+       r="1.8"
+       fill="white"
+       opacity="0"
+       id="circle8213">
+      <animate
+         attributeName="opacity"
+         values="0;0.4;0"
+         dur="4.5s"
+         repeatCount="indefinite"
+         begin="1.5s" />
+    </circle>
+    <circle
+       cx="850"
+       cy="480"
+       r="1.5"
+       fill="white"
+       opacity="0"
+       id="circle8215">
+      <animate
+         attributeName="opacity"
+         values="0;0.5;0"
+         dur="3.8s"
+         repeatCount="indefinite"
+         begin="0.8s" />
+    </circle>
+    <circle
+       cx="1100"
+       cy="425"
+       r="2"
+       fill="white"
+       opacity="0"
+       id="circle8217">
+      <animate
+         attributeName="opacity"
+         values="0;0.6;0"
+         dur="4.2s"
+         repeatCount="indefinite"
+         begin="2.5s" />
+    </circle>
+  </g>
+</svg>

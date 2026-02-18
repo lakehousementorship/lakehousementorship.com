@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient id="priceBg2" y2="1">
+   <stop stop-color="#E8F6FD" offset="0"/>
+   <stop stop-color="#FFF3D4" offset="1"/>
+  </linearGradient>
+ </defs>
+ <rect width="800" height="200" rx="16" fill="url(#priceBg2)"/>
+ <g transform="translate(100 30)">
+  <line x2="600" y1="120" y2="120" stroke="#E8DCC0" stroke-width="2"/>
+  <line y1="120" y2="10" stroke="#E8DCC0" stroke-width="2"/>
+  <path d="m0 110q100-2 200-15 100-20 200-50t200-40" fill="none" stroke="#4CAF50" stroke-linecap="round" stroke-width="3"/>
+  <g fill="#4CAF50">
+   <path d="m0 110q100-2 200-15 100-20 200-50t200-40v115h-600z" opacity=".1"/>
+   <circle cy="110" r="4"/>
+   <circle cx="150" cy="100" r="4"/>
+  </g>
+  <circle cx="300" cy="72" r="4" fill="#4caf50"/>
+  <circle cx="450" cy="32" r="4" fill="#4caf50"/>
+  <polygon transform="translate(0,8)" points="607 6 600 2 593 6 595 -2 589 -7 597 -7 600 -15 603 -7 611 -7 605 -2" fill="#d4a017" opacity=".7">
+   <animate attributeName="opacity" dur="2s" repeatCount="indefinite" values="0.7;1;0.7"/>
+  </polygon>
+  <g fill="#6B6B6B" font-family="'Inter', sans-serif" font-size="10">
+   <text y="138">Start</text>
+   <text x="280" y="138">Growth</text>
+   <text x="570" y="138">Mastery</text>
+  </g>
+  <text transform="rotate(-90)" x="-31" y="-5" fill="#6b6b6b" font-family="Inter, sans-serif" font-size="9px" text-anchor="end">Curiosity &amp; Skills</text>
+ </g>
+ <text x="400" y="185" fill="#2C3E50" font-family="'Playfair Display', serif" font-size="15" font-weight="600" text-anchor="middle">An investment that compounds over a lifetime</text>
+</svg>

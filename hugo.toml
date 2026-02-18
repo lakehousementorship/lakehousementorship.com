@@ -1,0 +1,72 @@
+baseURL = 'https://lakehousementorship.com/'
+languageCode = 'en-us'
+title = 'Lakehouse Mentorship'
+theme = 'lakehouse'
+
+# Disable default taxonomies we don't need
+disableKinds = ['taxonomy', 'term']
+
+[params]
+  author = "Sergei Parshev"
+  description = "Premium one-on-one mentorship for the next generation — blending tech mastery, life skills, and curiosity at a serene lakehouse in Clermont, FL."
+  tagline = "Igniting curiosity. Building futures. One young mind at a time."
+  hero_cta_text = "Discover Your Child's Potential"
+  hero_cta_link = "#about"
+  location = "Clermont, FL (Orlando Area)"
+  footer_description = "Premium one-on-one mentorship that blends tech mastery, hands-on making, and life wisdom. Based at a serene lakehouse in Clermont, FL."
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    name = "Gallery"
+    url = "/gallery/"
+    weight = 15
+  [[menu.main]]
+    name = "Directions"
+    url = "/directions/"
+    weight = 20
+  [[menu.main]]
+    name = "Pricing"
+    url = "/pricing/"
+    weight = 30
+  [[menu.main]]
+    name = "Get Started"
+    url = "/contact/"
+    weight = 50
+
+  [[menu.footer]]
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menu.footer]]
+    name = "Gallery"
+    url = "/gallery/"
+    weight = 15
+  [[menu.footer]]
+    name = "Directions"
+    url = "/directions/"
+    weight = 20
+  [[menu.footer]]
+    name = "Pricing"
+    url = "/pricing/"
+    weight = 30
+  [[menu.footer]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 40
+  [[menu.footer]]
+    name = "Privacy"
+    url = "/privacy/"
+    weight = 50
+  [[menu.footer]]
+    name = "Terms"
+    url = "/terms/"
+    weight = 60
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

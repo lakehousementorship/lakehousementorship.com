@@ -1,0 +1,43 @@
+{{ define "main" }}
+
+<div class="page-header">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.subtitle }}
+    <p>{{ . }}</p>
+    {{ end }}
+  </div>
+</div>
+
+<article class="page-content page-content-wide">
+  {{/* Split content with SVG illustrations interspersed */}}
+  
+  {{/* Hero intro illustration: Mentor & mentee at workbench */}}
+  <div class="content-illustration animate-in">
+    <img src="/images/workbench_mentor.svg" class="page-svg"/>
+  </div>
+
+  {{ .Content }}
+
+  {{/* Second illustration: Journey / Cross-cultural bridge */}}
+  <div class="content-illustration animate-in">
+    <img src="/images/road.svg" class="page-svg"/>
+  </div>
+</article>
+
+{{ if .Site.Params.show_cta_on_pages | default true }}
+<section class="cta-section" id="get-started">
+  <div class="container">
+    <div class="section-header" style="margin-bottom:2rem;">
+      <h2>Ready to Get Started?</h2>
+    </div>
+    <p>Every journey begins with a conversation. Let's see how Lakehouse Mentorship can unlock your child's potential.</p>
+    <div class="cta-buttons">
+      <a href="/contact/" class="btn-primary">Contact Us</a>
+      <a href="/" class="btn-outline">Back to Home</a>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ end }}

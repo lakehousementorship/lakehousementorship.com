@@ -1,0 +1,19 @@
+{{/* Random hero scene picker — renders all 3 hidden, JS picks one on load */}}
+<div id="hero-scenes-container">
+  <div class="hero-variant" id="hero-v1" style="display:none;">
+    {{ partial "hero-scene-1.html" . }}
+  </div>
+  <div class="hero-variant" id="hero-v2" style="display:none;">
+    {{ partial "hero-scene-2.html" . }}
+  </div>
+  <div class="hero-variant" id="hero-v3" style="display:none;">
+    {{ partial "hero-scene-3.html" . }}
+  </div>
+</div>
+<script>
+(function() {
+  var variants = document.querySelectorAll('#hero-scenes-container .hero-variant');
+  var idx = Math.floor(Math.random() * variants.length);
+  variants[idx].style.display = 'block';
+})();
+</script>

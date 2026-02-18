@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="660" height="200" version="1.1" viewBox="0 0 660 200" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgCustom" x2="0" y2="400" gradientTransform="scale(1.65 .5)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF9E8" offset="0"/>
+      <stop stop-color="#F3E5F5" offset="1"/>
+    </linearGradient>
+  </defs>
+  <rect width="660" height="200" rx="13.2" fill="url(#bgCustom)" stroke-width=".908"/>
+  <g transform="translate(199 54)">
+    <rect width="80" height="90" rx="6" fill="#fff" stroke="#c4a95a" stroke-width="1.5"/>
+    <rect width="80" height="20" rx="6" fill="#c4a95a"/>
+    <rect y="10" width="80" height="10" fill="#c4a95a"/>
+    <text x="40" y="15" fill="#ffffff" font-family="Inter, sans-serif" font-size="10px" font-weight="700" text-anchor="middle">SCHEDULE</text>
+    <g fill="#e0e0e0" opacity=".5">
+      <rect x="8" y="28" width="12" height="10" rx="2"/>
+      <rect x="24" y="28" width="12" height="10" rx="2"/>
+      <rect x="40" y="28" width="12" height="10" rx="2"/>
+      <rect x="56" y="28" width="12" height="10" rx="2"/>
+      <rect x="8" y="42" width="12" height="10" rx="2"/>
+      <rect x="24" y="42" width="12" height="10" rx="2"/>
+      <rect x="40" y="42" width="12" height="10" rx="2"/>
+      <rect x="56" y="42" width="12" height="10" rx="2"/>
+      <rect x="8" y="56" width="12" height="10" rx="2"/>
+      <rect x="24" y="56" width="12" height="10" rx="2"/>
+      <rect x="40" y="56" width="12" height="10" rx="2"/>
+      <rect x="56" y="56" width="12" height="10" rx="2"/>
+      <rect x="8" y="70" width="12" height="10" rx="2"/>
+      <rect x="24" y="70" width="12" height="10" rx="2"/>
+    </g>
+    <g fill="#c4a95a">
+      <rect x="24" y="28" width="12" height="10" rx="2" opacity=".8"/>
+      <rect x="56" y="42" width="12" height="10" rx="2" opacity=".8"/>
+      <rect x="8" y="56" width="12" height="10" rx="2" opacity=".8"/>
+      <rect x="40" y="70" width="12" height="10" rx="2" opacity=".8"/>
+    </g>
+  </g>
+  <g transform="matrix(1.26 0 0 1.26 461 75.6)">
+    <g transform="translate(-20)">
+      <circle r="14" fill="#d4b96a"/>
+      <circle r="12" fill="#f5edd6"/>
+      <circle cx="-3" cy="-2" r="1.5" fill="#555"/>
+      <circle cx="3" cy="-2" r="1.5" fill="#555"/>
+      <path d="m-3 3q3 3 6 0" fill="none" stroke="#555" stroke-width="1.2"/>
+      <rect x="-9" y="14" width="18" height="30" rx="3" fill="#7b1fa2"/>
+    </g>
+    <g transform="translate(20,5)">
+      <circle r="12" fill="#d4b96a"/>
+      <circle r="10" fill="#f5edd6"/>
+      <circle cx="-3" cy="-2" r="1.3" fill="#555"/>
+      <circle cx="3" cy="-2" r="1.3" fill="#555"/>
+      <path d="m-3 2q3 3 6 0" fill="none" stroke="#555" stroke-width="1.1"/>
+      <rect x="-8" y="12" width="16" height="28" rx="3" fill="#e65100"/>
+    </g>
+    <rect x="-30" y="50" width="60" height="16" rx="8" fill="#c4a95a" opacity=".85"/>
+    <text y="61" fill="#ffffff" font-family="Inter, sans-serif" font-size="8px" font-weight="700" text-anchor="middle">SIBLINGS</text>
+  </g>
+  <g transform="matrix(1.62 0 0 1.62 573 82.1)">
+    <rect x="-25" width="50" height="35" rx="4" fill="#8b7355"/><rect x="-25" width="50" height="10" rx="4" fill="#7a6245"/>
+    <rect x="-8" y="-3" width="16" height="6" rx="2" fill="#c4a95a"/>
+    <rect x="14.3" y="-8" width="3" height="10" rx="1" fill="#ff5252" stroke="#000" stroke-width=".31"/>
+    <rect x="11.3" y="-10" width="9" height="4" rx="1" fill="#d32f2f" stroke="#000" stroke-width=".31"/><g fill="#7e7e7e" stroke="#000" stroke-linejoin="round" stroke-width=".31">
+  <path d="m-8.62 2.07v-15.5h1.16c0.214-1.94 4.62-2.72 6.69-0.779-0.439-3.42-2.33-5.66-6.54-6.02h-5.49c-0.0181 1.84-2.28 1.82-2.28 0h-1.38c-0.629 0-1.31-0.0081-1.31 3.15 0 3.15 0.408 3.15 1.31 3.15h1.49c-0.0785-1.47 2.4-1.78 2.25 0.47h1.17v15.5z"/><path d="m-1.71 7v-8.53c-4.73-2.23-3.88-8.79-0.372-9.77v3.6c0.535 3 4.43 2.98 4.96 0v-3.62c4.04 1.82 4.06 7.67-0.306 9.79v8.54z"/><path d="m8.7 8.22v-14.8l-1.09-1.89 1.75-4.8h2.03l1.65 4.75-0.995 1.97v14.8z"/></g><path d="m-12.9 8.24v-6.34h5.54v6.47z" fill="#a92064" stroke="#000" stroke-linejoin="round" stroke-width=".31"/><rect x="-20" y="-10.8" width="4" height="14" rx="1" fill="#555" stroke="#030303" stroke-width=".31"/></g>
+  <g transform="translate(351 100)">
+    <circle r="38" fill="#fff" stroke="#d4a017" stroke-width="2.5"/>
+    <circle r="34" fill="#fff9e8"/>
+    <g stroke-linecap="round">
+      <g stroke="#c4a95a" stroke-width="2">
+        <line y1="-30" y2="-26"/>
+        <line x1="15" x2="13" y1="-26" y2="-22.5"/>
+        <line x1="26" x2="22.5" y1="-15" y2="-13"/>
+        <line x1="30" x2="26"/>
+        <line x1="26" x2="22.5" y1="15" y2="13"/>
+        <line x1="15" x2="13" y1="26" y2="22.5"/>
+        <line y1="30" y2="26"/>
+        <line x1="-15" x2="-13" y1="26" y2="22.5"/>
+        <line x1="-26" x2="-22.5" y1="15" y2="13"/>
+        <line x1="-30" x2="-26"/>
+        <line x1="-26" x2="-22.5" y1="-15" y2="-13"/>
+        <line x1="-15" x2="-13" y1="-26" y2="-22.5"/>
+      </g>
+      <line y2="-16" stroke="#555" stroke-width="2.5"/>
+      <line x2="14" y2="-14" stroke="#555" stroke-width="1.8"/>
+    </g>
+    <circle r="3" fill="#d4a017"/>
+  </g>
+  <g transform="translate(-14,148)" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m111-66.6c0-1.62 2.87-1.98 4.31-0.457 3.88 4.09 8.14 1.44 8.14-4.46 0-3.87-2.04-6.27-4.4-6.36-1.24-0.0434-2.57 0.549-3.74 1.9-1.98 2.28-4.31 0.804-4.31-0.457l-6e-3 -14.7c0-1.3-1.04-2.34-2.34-2.34h-39.3c-1.3 0-2.34 1.04-2.34 2.34v39.3c0 1.3 1.04 2.34 2.34 2.34h14.7c1.26 0 2.73-2.34 0.457-4.31-3.93-3.41-1.44-8.14 4.46-8.14s8.54 4.26 4.46 8.14c-1.52 1.44-1.16 4.31 0.457 4.31h14.7c1.3 0 2.34-1.04 2.34-2.34z" fill="#e51a1a" stop-color="#000000" style="paint-order:markers fill stroke"/>
+    <path d="m129-49.5c1.62 0 1.98 2.87 0.457 4.31-4.09 3.88-1.44 8.14 4.46 8.14 3.87 0 6.27-2.04 6.36-4.4 0.0434-1.24-0.549-2.57-1.9-3.74-2.28-1.98-0.804-4.31 0.457-4.31l14.7-6e-3c1.3 0 2.34-1.04 2.34-2.34v-39.3c0-1.3-1.04-2.34-2.34-2.34h-39.3c-1.3 0-2.34 1.04-2.34 2.34v14.7c0 1.26 2.34 2.73 4.31 0.457 3.41-3.93 8.14-1.44 8.14 4.46 0 5.9-4.26 8.54-8.14 4.46-1.44-1.52-4.31-1.16-4.31 0.457v14.7c0 1.3 1.04 2.34 2.34 2.34z" fill="#261ae5" stop-color="#000000" style="paint-order:markers fill stroke"/>
+    <path d="m94.3-49.4c-1.62 0-1.98-2.87-0.457-4.31 4.09-3.88 1.44-8.14-4.46-8.14-3.87 0-6.27 2.04-6.36 4.4-0.0434 1.24 0.549 2.57 1.9 3.74 2.28 1.98 0.804 4.31-0.457 4.31l-14.7 6e-3c-1.3 0-2.34 1.04-2.34 2.34v39.3c0 1.3 1.04 2.34 2.34 2.34h39.3c1.3 0 2.34-1.04 2.34-2.34v-14.7c0-1.26-2.34-2.73-4.31-0.457-3.41 3.93-8.14 1.44-8.14-4.46 0-5.9 4.26-8.54 8.14-4.46 1.44 1.52 4.31 1.16 4.31-0.457v-14.7c0-1.3-1.04-2.34-2.34-2.34z" fill="#ebee0d" stop-color="#000000" style="paint-order:markers fill stroke"/>
+    <path d="m111-32.4c0 1.62-2.87 1.98-4.31 0.457-3.88-4.09-8.14-1.44-8.14 4.46 0 3.87 2.04 6.27 4.4 6.36 1.24 0.0434 2.57-0.549 3.74-1.9 1.98-2.28 4.31-0.804 4.31 0.457l6e-3 14.7c0 1.3 1.04 2.34 2.34 2.34h39.3c1.3 0 2.34-1.04 2.34-2.34v-39.3c0-1.3-1.04-2.34-2.34-2.34h-14.7c-1.26 0-2.73 2.34-0.457 4.31 3.93 3.41 1.44 8.14-4.46 8.14-5.9 0-8.54-4.26-4.46-8.14 1.52-1.44 1.16-4.31-0.457-4.31h-14.7c-1.3 0-2.34 1.04-2.34 2.34z" fill="#1ae521" stop-color="#000000" style="paint-order:markers fill stroke">
+      <animateTransform attributeName="transform" dur="3s" keyTimes="0;0.3;0.5;0.8;1" repeatCount="indefinite" type="translate" values="25,25;10,10;0,0;0,0;25,25"/>
+      <animate attributeName="opacity" dur="3s" keyTimes="0;0.3;0.5;0.8;1" repeatCount="indefinite" values="0.4;0.7;1;1;0.4"/>
+    </path>
+  </g>
+</svg>

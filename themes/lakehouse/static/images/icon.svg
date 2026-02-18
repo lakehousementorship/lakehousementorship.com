@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+ <path d="m0 27c8 0.99358 13.66-4.1312 20.844-1.2857 7.0514-0.69886 14.564-0.77916 19.156 0v11l-40 0.28571z" fill="#4a8141" stroke-width=".19445"/>
+ <rect x="8" y="16" width="24" height="16" rx="1" fill="#d4b96a"/>
+ <polygon transform="translate(0,-2)" points="20 6 36 18 4 18" fill="#7a5c3e"/>
+ <rect y="34" width="40" height="6" rx="1" fill="#5A9FCA"/>
+ <circle cx="33" cy="7" r="4" fill="#fff176" opacity=".8"/>
+ <g stroke-linecap="round">
+  <line x1="2.8509" x2="3.6409" y1="32.588" y2="19.495" stroke="#8b7355" stroke-width="1.1532"/>
+  <path d="m3.6409 19.495q-4.7398-2.9927-9.4796 0.74819" fill="#43a047" stroke="#2e7d32" stroke-width=".5766"/>
+  <path d="m3.6409 19.495q3.9498-4.4891 7.8997-0.74819" fill="#43a047" stroke="#2e7d32" stroke-width=".5766"/>
+  <line x1="35.988" x2="36.78" y1="32.12" y2="20.475" stroke="#8b7355" stroke-width="1.0891"/>
+  <path d="m36.975 20.559q-4.1358-3.2209-9.5215-0.53167" fill="#43a047" stroke="#2e7d32" stroke-width=".54473"/>
+  <path d="m36.545 20.448q5.0916-3.1324 7.8956 0.83737" fill="#43a047" stroke="#2e7d32" stroke-width=".54457"/>
+ </g>
+ <rect x="15.862" y="20.956" width="8.2766" height="11.022" fill="#7a5c3e" stop-color="#000000" style="paint-order:markers fill stroke"/>
+</svg>

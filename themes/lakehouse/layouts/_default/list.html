@@ -1,0 +1,24 @@
+{{ define "main" }}
+
+<div class="page-header">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.subtitle }}
+    <p>{{ . }}</p>
+    {{ end }}
+  </div>
+</div>
+
+<div class="page-content">
+  {{ .Content }}
+
+  {{ range .Pages }}
+  <div style="margin-bottom: 2rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--color-border);">
+    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+    {{ with .Description }}<p>{{ . }}</p>{{ end }}
+    {{ .Summary }}
+  </div>
+  {{ end }}
+</div>
+
+{{ end }}

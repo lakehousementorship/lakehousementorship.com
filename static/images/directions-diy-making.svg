@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="462" height="200" version="1.1" viewBox="0 0 462 200" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient id="bgGrad" x2="400" y2="400" gradientTransform="scale(1.155 .5)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#FFF3E0" offset="0"/>
+   <stop stop-color="#FFF9E8" offset="1"/>
+  </linearGradient>
+  <linearGradient id="printerGrad" x1="-.78291" x2="-.78291" y1="-.71847" y2="115.67" gradientTransform="scale(.95796 1.0439)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#F5F5F5" offset="0"/>
+   <stop stop-color="#E0E0E0" offset="1"/>
+  </linearGradient>
+ </defs>
+ <rect width="462" height="200" rx="9.24" fill="url(#bgGrad)" stroke-width=".75993"/>
+ <g transform="translate(34.665 39.798)">
+  <rect width="110" height="120" rx="4" fill="url(#printerGrad)" stroke="#bdbdbd" stroke-width="1.5"/>
+  <rect transform="translate(10 30)" width="90" height="10" rx="2" fill="#444444" stroke="#bdbdbd" stroke-width="1.5"/>
+  <g stroke="#9e9e9e" stroke-width="2">
+   <line x1="10" x2="100" y1="15" y2="15"/>
+   <line x1="10" x2="10" y1="15" y2="100"/>
+   <line x1="100" x2="100" y1="15" y2="100"/>
+  </g>
+  <g>
+   <rect x="15" y="90" width="80" height="8" rx="2" fill="#616161"/>
+   <rect x="20" y="88" width="70" height="4" rx="1" fill="#757575"/>
+   <rect x="40" y="70" width="30" height="18" rx="3" fill="#ff8f00" opacity=".7">
+    <animate attributeName="height" dur="4s" repeatCount="indefinite" values="0;18;0"/>
+    <animate attributeName="y" dur="4s" repeatCount="indefinite" values="88;70;88"/>
+   </rect>
+   <animateTransform attributeName="transform" dur="4s" repeatCount="indefinite" type="translate" values="0,-40;0,-20;0,-40"/>
+  </g>
+  <g>
+   <rect x="42" y="25" width="26" height="18" rx="3" fill="#e65100"/>
+   <rect x="45" y="28" width="20" height="12" rx="2" fill="#ef6c00"/>
+   <path d="m52 43 3 7 3-7" fill="#bf360c"/>
+   <!--line x1="55" x2="55" y1="50" y2="70" opacity=".7" stroke="#e65100" stroke-width="1.5">
+    <animate attributeName="y2" dur="4s" repeatCount="indefinite" values="50;85;50"/>
+   </line-->
+   <animateTransform attributeName="transform" dur="4s" repeatCount="indefinite" type="translate" values="0,0;10,0;-5,0;0,0"/>
+  </g>
+  <g>
+   <rect x="15" y="105" width="40" height="10" rx="2" fill="#263238"/>
+   <rect x="17" y="107" width="36" height="6" rx="1" fill="#00e676" opacity=".7"/>
+   <rect x="19" y="108" width="15" height="2" rx=".5" fill="#1b5e20" opacity=".5"/>
+  </g>
+ </g>
+ <g transform="translate(175.02 15.639)">
+  <rect width="95" height="65" rx="3" fill="#00695c" stroke="#004d40"/>
+  <rect x="30" y="15" width="30" height="20" rx="2" fill="#212121"/>
+  <circle cx="45" cy="25" r="2" fill="#37474f"/>
+  <g fill="#ffd600">
+   <rect x="5" y="3" width="3" height="6" rx=".5"/>
+   <rect x="11" y="3" width="3" height="6" rx=".5"/>
+   <rect x="17" y="3" width="3" height="6" rx=".5"/>
+   <rect x="23" y="3" width="3" height="6" rx=".5"/>
+   <rect x="5" y="56" width="3" height="6" rx=".5"/>
+   <rect x="11" y="56" width="3" height="6" rx=".5"/>
+   <rect x="17" y="56" width="3" height="6" rx=".5"/>
+   <rect x="23" y="56" width="3" height="6" rx=".5"/>
+  </g>
+  <rect x="72" y="20" width="22" height="15" rx="2" fill="#9e9e9e" stroke="#757575" stroke-width=".5"/>
+  <rect x="75" y="23" width="16" height="9" rx="1" fill="#bdbdbd"/>
+  <path d="m6.5992 62c0 12 1.7763 22.265 13.11 28.932 11.333 6.6667 22.988 3.7038 31.655-6.2962" fill="none" stroke="#f44336" stroke-linecap="round" stroke-width="2"/>
+  <circle cx="65" cy="8" r="4" fill="#f44336" opacity=".3">
+   <animate attributeName="opacity" dur="1s" repeatCount="indefinite" values="0.3;1;0.3"/>
+  </circle>
+  <circle cx="75" cy="8" r="4" fill="#4caf50">
+   <animate attributeName="opacity" dur="1.5s" repeatCount="indefinite" values="1;0.3;1"/>
+  </circle>
+  <circle cx="85" cy="8" r="4" fill="#ffc107" opacity=".5">
+   <animate attributeName="opacity" dur="0.8s" repeatCount="indefinite" values="0.5;1;0.5"/>
+  </circle>
+  <rect x="35" y="42" width="12" height="4" rx="1" fill="#795548"/>
+  <g fill="#e65100" opacity=".4">
+   <rect x="36" y="43" width="2" height="2" rx=".3"/>
+   <rect x="39" y="43" width="2" height="2" rx=".3"/>
+   <rect x="42" y="43" width="2" height="2" rx=".3"/>
+   <rect x="45" y="43" width="2" height="2" rx=".3"/>
+  </g>
+  <g opacity=".4" stroke="#00897b" stroke-width=".5">
+   <line x1="30" x2="5" y1="35" y2="35"/>
+   <line x1="30" x2="5" y1="25" y2="25"/>
+   <line x1="60" x2="72" y1="20" y2="20"/>
+   <line x1="60" x2="72" y1="30" y2="30"/>
+  </g>
+  <path d="m12.409 61.811c0 10.121 1.3826 18.778 10.204 24.401 8.8213 5.6227 17.893 3.1238 24.639-5.3103" fill="none" stroke="#2196f3" stroke-linecap="round" stroke-width="2"/>
+  <path d="m18.491 61.592c0 7.7298 1.0343 14.342 7.6334 18.636 6.5991 4.2943 13.385 2.3858 18.432-4.0557" fill="none" stroke="#4caf50" stroke-linecap="round" stroke-width="2"/>
+ </g>
+ <g transform="translate(301.82 13.884)">
+  <rect y="25" width="70" height="14" rx="5" fill="#5d4037"/>
+  <rect x="5" y="27" width="60" height="10" rx="4" fill="#6d4c41"/>
+  <g stroke="#4e342e">
+   <line x1="15" x2="15" y1="25" y2="39"/>
+   <line x1="25" x2="25" y1="25" y2="39"/>
+   <line x1="35" x2="35" y1="25" y2="39"/>
+  </g>
+  <rect x="65" y="28" width="40" height="8" rx="1" fill="#9e9e9e"/>
+  <rect x="65" y="29" width="40" height="6" rx="1" fill="#bdbdbd"/>
+  <path d="m105 29 15 2.5-15 3.5" fill="#e0e0e0"/>
+  <path d="m112 30.5 8 1-8 1.5" fill="#f9a825"/>
+  <circle cx="120" cy="31.5" r="5" fill="#ff6d00" opacity=".4">
+   <animate attributeName="r" dur="2s" repeatCount="indefinite" values="5;8;5"/>
+   <animate attributeName="opacity" dur="2s" repeatCount="indefinite" values="0.4;0.2;0.4"/>
+  </circle>
+  <circle cx="120" cy="31.5" r="3" fill="#ffab00" opacity=".7">
+   <animate attributeName="opacity" dur="1s" repeatCount="indefinite" values="0.7;1;0.7"/>
+  </circle>
+  <path d="m120 26q3-6 0-12t0-12" fill="none" opacity=".3" stroke="#9e9e9e">
+   <animate attributeName="opacity" dur="3s" repeatCount="indefinite" values="0.3;0.1;0.3"/>
+   <animate attributeName="d" dur="4s" repeatCount="indefinite" values="M120 26 Q123 20 120 14 Q117 8 120 2;M120 26 Q117 18 120 12 Q123 6 118 0;M120 26 Q123 20 120 14 Q117 8 120 2"/>
+  </path>
+ </g>
+ <g transform="translate(178.88 117.61)">
+  <rect width="90" height="70" rx="3" fill="#1b5e20" stroke="#2e7d32"/>
+  <g fill="none" opacity=".6" stroke="#4caf50">
+   <path d="m10 10h20v20h20"/>
+   <path d="m10 25h10v20h20v15"/>
+   <path d="m60 10v15h20"/>
+   <path d="m50 50h20v-15"/>
+   <path d="m15 55h40"/>
+   <path d="m75 10v35l-15 15"/>
+  </g>
+  <g fill="#ffd600" opacity=".8">
+   <circle cx="10" cy="10" r="3"/>
+   <circle cx="50" cy="30" r="3"/>
+   <circle cx="80" cy="25" r="3"/>
+   <circle cx="40" cy="60" r="3"/>
+   <circle cx="10" cy="25" r="2.5"/>
+   <circle cx="60" cy="10" r="2.5"/>
+   <circle cx="70" cy="35" r="2.5"/>
+   <circle cx="75" cy="10" r="2.5"/>
+   <circle cx="15" cy="55" r="2"/>
+   <circle cx="55" cy="55" r="2"/>
+   <circle cx="60" cy="60" r="2"/>
+  </g>
+  <rect x="25" y="15" width="20" height="12" rx="1" fill="#212121"/>
+  <g fill="#ffd600">
+   <rect x="27" y="12" width="2" height="3" rx=".3"/>
+   <rect x="31" y="12" width="2" height="3" rx=".3"/>
+   <rect x="35" y="12" width="2" height="3" rx=".3"/>
+   <rect x="39" y="12" width="2" height="3" rx=".3"/>
+   <rect x="27" y="27" width="2" height="3" rx=".3"/>
+   <rect x="31" y="27" width="2" height="3" rx=".3"/>
+   <rect x="35" y="27" width="2" height="3" rx=".3"/>
+   <rect x="39" y="27" width="2" height="3" rx=".3"/>
+  </g>
+  <circle cx="28" cy="18" r="1.5" fill="#4e342e" opacity=".5"/>
+ </g>
+ <g transform="translate(306.4 88.789)">
+  <rect x="35" y="30" width="50" height="25" rx="6" fill="#424242" stroke="#616161"/>
+  <rect x="40" y="33" width="40" height="19" rx="4" fill="#505050"/>
+  <circle cx="60" cy="55" r="5" fill="#212121" stroke="#616161" stroke-width=".5"/>
+  <circle cx="60" cy="55" r="3" fill="#1565c0" opacity=".5"/>
+  <g stroke="#616161" stroke-linecap="round" stroke-width="3">
+   <line x1="40" x2="10" y1="35" y2="15"/>
+   <line x1="80" x2="110" y1="35" y2="15"/>
+   <line x1="40" x2="10" y1="50" y2="70"/>
+   <line x1="80" x2="110" y1="50" y2="70"/>
+  </g>
+  <g fill="#757575">
+   <circle cx="10" cy="15" r="7"/>
+   <circle cx="110" cy="15" r="7"/>
+   <circle cx="10" cy="70" r="7"/>
+   <circle cx="110" cy="70" r="7"/>
+  </g>
+  <g transform="translate(10,15)">
+   <ellipse rx="20" ry="3" fill="#e65100" opacity=".4">
+    <animateTransform attributeName="transform" dur="0.2s" repeatCount="indefinite" type="rotate" values="0;360"/>
+   </ellipse>
+  </g>
+  <g transform="translate(110,15)">
+   <ellipse rx="20" ry="3" fill="#e65100" opacity=".4">
+    <animateTransform attributeName="transform" dur="0.2s" repeatCount="indefinite" type="rotate" values="0;-360"/>
+   </ellipse>
+  </g>
+  <g transform="translate(10,70)">
+   <ellipse rx="20" ry="3" fill="#e65100" opacity=".4">
+    <animateTransform attributeName="transform" dur="0.2s" repeatCount="indefinite" type="rotate" values="0;-360"/>
+   </ellipse>
+  </g>
+  <g transform="translate(110,70)">
+   <ellipse rx="20" ry="3" fill="#e65100" opacity=".4">
+    <animateTransform attributeName="transform" dur="0.2s" repeatCount="indefinite" type="rotate" values="0;360"/>
+   </ellipse>
+  </g>
+  <circle cx="60" cy="35" r="2" fill="#4caf50">
+   <animate attributeName="fill" dur="2s" repeatCount="indefinite" values="#4CAF50;#FF5252;#4CAF50"/>
+  </circle>
+ </g>
+</svg>

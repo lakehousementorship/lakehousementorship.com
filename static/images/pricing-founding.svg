@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="bgFounding" x2="0" y2="1">
+   <stop stop-color="#FFF3D4" offset="0"/>
+   <stop stop-color="#FFF9E8" offset="1"/>
+  </linearGradient>
+  <linearGradient id="ticketGold" x1="-71.8" x2="-71.8" y1="-1.41" y2="142" gradientTransform="scale(1.41 .711)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#F5D76E" offset="0"/>
+   <stop stop-color="#D4A017" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient174743" x1="-110" x2="-110" y1="40" y2="60" gradientUnits="userSpaceOnUse" xlink:href="#bgFounding"/>
+  <linearGradient id="linearGradient174745" x1="90" x2="90" y1="40" y2="60" gradientUnits="userSpaceOnUse" xlink:href="#bgFounding"/>
+ </defs>
+ <rect width="800" height="200" rx="16" fill="url(#bgFounding)"/>
+ <g transform="translate(340,50)">
+  <rect x="-100" width="200" height="100" rx="10" fill="url(#ticketGold)" stroke="#c4a95a" stroke-width="2"/>
+  <circle cx="-100" cy="50" r="10" fill="url(#linearGradient174743)"/>
+  <circle cx="100" cy="50" r="10" fill="url(#linearGradient174745)"/>
+  <line x1="-85" x2="85" y1="50" y2="50" opacity=".5" stroke="#fff" stroke-dasharray="4, 4"/>
+  <rect x="-75" y="10" width="150" height="35" rx="6" fill="#fff" opacity=".25"/>
+  <text y="35" fill="#ffffff" font-family="'Playfair Display', serif" font-size="28px" font-weight="700" stroke="#c4a95a" stroke-width=".5" text-anchor="middle">20% OFF</text>
+  <text y="70" fill="#ffffff" font-family="Inter, sans-serif" font-size="11px" font-weight="600" opacity=".9" text-anchor="middle">FOUNDING FAMILY</text>
+  <rect x="-60" y="78" width="120" height="14" rx="3" fill="#c4a95a" opacity=".6"/>
+  <text y="89" fill="#ffffff" font-family="Inter, sans-serif" font-size="9px" font-weight="600" text-anchor="middle">LIMITED TIME OFFER</text>
+ </g>
+ <g transform="translate(40,20)" fill="#d4a017">
+  <polygon points="177 48 170 43 163 48 165 39 158 34 167 34 170 25 173 34 182 34 175 39">
+   <animate attributeName="opacity" dur="2s" repeatCount="indefinite" values="0.4;1;0.4"/>
+  </polygon>
+  <polygon transform="scale(.8)" points="552 43 545 38 538 43 540 34 533 29 542 29 545 20 548 29 557 29 550 34">
+   <animate attributeName="opacity" begin="0.5s" dur="2.5s" repeatCount="indefinite" values="0.3;0.9;0.3"/>
+  </polygon>
+  <polygon transform="scale(.7)" points="387 213 380 208 373 213 375 204 368 199 377 199 380 190 383 199 392 199 385 204">
+   <animate attributeName="opacity" begin="1s" dur="3s" repeatCount="indefinite" values="0.5;1;0.5"/>
+  </polygon>
+ </g>
+ <g transform="translate(40,20)" fill="#fff176" opacity=".6">
+  <polygon transform="scale(.5)" points="365 46 360 42 355 46 357 40 352 36 358 36 360 30 362 36 368 36 363 40">
+   <animate attributeName="opacity" dur="1.8s" repeatCount="indefinite" values="0.3;1;0.3"/>
+  </polygon>
+  <polygon transform="scale(.5)" points="865 66 860 62 855 66 857 60 852 56 858 56 860 50 862 56 868 56 863 60">
+   <animate attributeName="opacity" begin="0.8s" dur="2.2s" repeatCount="indefinite" values="0.2;0.8;0.2"/>
+  </polygon>
+  <polygon transform="scale(.6)" points="255 256 250 252 245 256 247 250 242 246 248 246 250 240 252 246 258 246 253 250">
+   <animate attributeName="opacity" begin="0.3s" dur="2s" repeatCount="indefinite" values="0.4;1;0.4"/>
+  </polygon>
+ </g>
+ <g transform="translate(660,45)">
+  <g transform="translate(-154 43.4)">
+   <circle r="14" fill="#d4b96a"/>
+   <circle r="12" fill="#f5edd6"/>
+   <circle cx="-3" cy="-2" r="1.5" fill="#555"/>
+   <circle cx="3" cy="-2" r="1.5" fill="#555"/>
+   <path d="m-3 3q3 4 6 0" fill="none" stroke="#555" stroke-width="1.2"/>
+   <rect x="-10" y="14" width="20" height="38" rx="4" fill="#2e7d32"/>
+   <path d="m10 22q8-4 12 6" fill="none" stroke="#2e7d32" stroke-linecap="round" stroke-width="6"/>
+   <circle cx="24" cy="30" r="4.5" fill="#f5edd6"/>
+  </g>
+  <g transform="translate(-104 45.4)">
+   <circle r="13" fill="#d4b96a"/>
+   <circle r="11" fill="#f5edd6"/>
+   <circle cx="-3" cy="-2" r="1.5" fill="#555"/>
+   <circle cx="3" cy="-2" r="1.5" fill="#555"/>
+   <path d="m-3 3q3 4 6 0" fill="none" stroke="#555" stroke-width="1.2"/>
+   <rect x="-9" y="13" width="18" height="36" rx="4" fill="#7b1fa2"/>
+   <path d="m-9 22q-9-4-13 6" fill="none" stroke="#7b1fa2" stroke-linecap="round" stroke-width="6"/>
+   <circle cx="-24" cy="30" r="4.5" fill="#f5edd6"/>
+  </g>
+  <g transform="translate(-129 65.4)">
+   <circle r="10" fill="#d4b96a"/>
+   <circle r="8" fill="#f5edd6"/>
+   <circle cx="-2" cy="-1" r="1.2" fill="#555"/>
+   <circle cx="2" cy="-1" r="1.2" fill="#555"/>
+   <path d="m-2 2q2 3 4 0" fill="none" stroke="#555"/>
+   <rect x="-7" y="10" width="14" height="26" rx="3" fill="#1976d2"/>
+  </g>
+  <g transform="matrix(1.85 0 0 1.85 -129 15.8)" fill="#ff5252" opacity=".6">
+   <path d="m0-4c-2-4-8-4-8 0s8 10 8 10 8-6 8-10-6-4-8 0z">
+    <animate attributeName="opacity" dur="2s" repeatCount="indefinite" values="0.4;0.8;0.4"/>
+   </path>
+  </g>
+ </g>
+</svg>
