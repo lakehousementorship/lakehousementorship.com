@@ -3,6 +3,14 @@
  */
 import { WorkerEntrypoint } from "cloudflare:workers";
 
+const ALLOWED_FORM_KEYS = [
+  "name",
+  "email",
+  "phone",
+  "referers",
+  "body",
+];
+
 export default class extends WorkerEntrypoint {
   async fetch(request) {
     const url = new URL(request.url);
@@ -11,8 +19,27 @@ export default class extends WorkerEntrypoint {
     if (request.method === 'POST') {
       if (url.pathname === '/api/submitIntakeForm') {
         const formData = await request.formData();
+
+        // Validating challenge
+        const token = formData.get("cf-turnstile-response");
+        const ip = request.headers.get("CF-Connecting-IP") ||
+                   request.headers.get("X-Forwarded-For") ||
+                   "unknown";
+
+        const validation = await validateTurnstile(this.env, token, ip);
+
+        if (!validation.success) {
+          // Token is invalid - reject the submission
+          return new Response("Invalid verification", { status: 400 });
+        }
+
+        // Processing: Filling the body for data
         const body = {};
         for (const entry of formData.entries()) {
+          // Make sure keys are allowed to be stored
+          if (!ALLOWED_FORM_KEYS.includes(entry[0])) {
+            continue;
+          }
           body[entry[0]] = entry[1];
         }
 
@@ -71,6 +98,26 @@ function escape(unsafe) {
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#039;")
     .replaceAll("@", "&#64;");
+}
+
+// Validate cloudflare Turnstile challenge
+async function validateTurnstile(env, token, remoteip) {
+  try {
+    const response = await fetch("https://challenges.cloudflare.com/turnstile/v0/siteverify", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        secret: await env.SECRET_INTAKE_TURNSTILE.get(),
+        response: token,
+        remoteip: remoteip,
+      }),
+    });
+
+    const result = await response.json();
+    return result;
+  } catch (error) {
+    return { success: false, "error-codes": ["internal-error"] };
+  }
 }
 
 /**

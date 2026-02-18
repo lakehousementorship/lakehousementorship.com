@@ -19,6 +19,11 @@ binding = "SECRET_INTAKE"
 store_id = "96ebea8f582f48cbae73db8bbc58cd6d"
 secret_name = "INTAKE_SECRET"
 
+[[secrets_store_secrets]]
+binding = "SECRET_INTAKE_TURNSTILE"
+store_id = "96ebea8f582f48cbae73db8bbc58cd6d"
+secret_name = "INTAKE_TRUNSTILE"
+
 [observability]
 enabled = false
 head_sampling_rate = 1
