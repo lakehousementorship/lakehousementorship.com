@@ -1270,12 +1270,8 @@ form {
 
 .input-wrapper span {
     position: absolute;
-    right: 2px;
+    right: 1rem;
     top: 25%;
-}
-
-input + span {
-  padding-right: 30px;
 }
 
 input:invalid + span::after {
