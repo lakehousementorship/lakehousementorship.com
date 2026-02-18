@@ -180,9 +180,8 @@ ${item.categories.map((category) => `            <category>${escape(category)}</
                 <media:title type="html">${escape(item.alt)}</media:title>
             </media:content>
             <content:encoded><![CDATA[
-                <div style="width:100%;display:block;">
-                  ${escape(item.content)}
-                </div>]]>
+                <div style="width:100%;display:block;"><pre>${escape(item.content)}
+                </pre></div>]]>
             </content:encoded>
         </item>`).join("\n")}
     </channel>
