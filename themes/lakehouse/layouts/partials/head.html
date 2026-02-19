@@ -3,7 +3,8 @@
 <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
 <link rel="canonical" href="{{ .Permalink }}" />
 <link rel="icon" type="image/svg+xml" href="{{ "images/icon.svg" | relURL }}" />
-<link rel="icon" type="image/png" href="{{ "images/icon.png" | relURL }}" />
+<link rel="icon" type="image/png" sizes="192x192" href="{{ "favicon.png" | relURL }}" />
+<link rel="apple-touch-icon" sizes="180x180" href="{{ "apple-touch-icon.png" | relURL }}">
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ else }}Premium one-on-one mentorship for the next generation — blending tech mastery, life skills, and curiosity at the lakehouse.{{ end }}{{ end }}">
 <meta name="author" content="{{ .Site.Params.author | default "Sergei Parshev" }}">
 

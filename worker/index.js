@@ -175,7 +175,7 @@ async function makeRSS(env) {
   }
 
   const channelTitle = 'Lakehouse Mentorship Intake RSS';
-  const channelImageUrl = 'https://lakehousementorship.com/images/icon.png';
+  const channelImageUrl = 'https://lakehousementorship.com/favicon.png';
   let channelDescription = 'Last month of intake requests';
   let managingEditor = 'help@lakehousementorship.com';
   let webMaster = 'help@lakehousementorship.com';
