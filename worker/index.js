@@ -18,6 +18,7 @@ export default class extends WorkerEntrypoint {
     // Procesing POST requests
     if (request.method === 'POST') {
       if (url.pathname === '/api/submitIntakeForm') {
+        let is_spam = false
         const formData = await request.formData();
 
         // Validating challenge
@@ -29,8 +30,8 @@ export default class extends WorkerEntrypoint {
         const validation = await validateTurnstile(this.env, token, ip);
 
         if (!validation.success) {
-          // Token is invalid - reject the submission
-          return new Response("Invalid verification", { status: 400 });
+          // Token is invalid - mark as potential spam instead
+          is_spam = true
         }
 
         // Processing: Filling the body for data
@@ -39,6 +40,9 @@ export default class extends WorkerEntrypoint {
           // Make sure keys are allowed to be stored
           if (!ALLOWED_FORM_KEYS.includes(entry[0])) {
             continue;
+          }
+          if (is_spam && entry[0] == 'name') {
+            entry[1] = 'SPAM: '+entry[1];
           }
           body[entry[0]] = entry[1];
         }
@@ -57,7 +61,12 @@ export default class extends WorkerEntrypoint {
         } catch (e) {
           return new Response(e.message + JSON.stringify(e.stack), { status: 500 });
         }
-        return new Response('Your message was sent successfully!');
+        if (is_spam) {
+          // Token was invalid - reject the submission
+          return new Response("Invalid verification", { status: 400 });
+        } else {
+          return new Response('Your message was sent successfully!');
+        }
       }
     }
 
