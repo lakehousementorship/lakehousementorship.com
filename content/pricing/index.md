@@ -13,8 +13,7 @@ Your child's future is priceless — and that's why Lakehouse Mentorship is an i
 ## Personal In-Person Mentorship
 *The Premium Lakehouse Experience*
 
-**$???<sup>*</sup> per full day (8 hours)** | **$?,???<sup>*</sup> for a 5-day immersion week**
-<div style="font-size:60%;color:#888;"><sup>*</sup> Sorry, we just started, but please feel free to <a href="/contact">contact us</a> to get the price.</div>
+**$600 per full day (8 hours)** | **$3,000 for a 5-day immersion week**
 
 This is the flagship experience — full-day immersion at the lakehouse where your child is surrounded by tools, technology, creativity, and hands-on learning.
 
@@ -36,8 +35,7 @@ This is the flagship experience — full-day immersion at the lakehouse where yo
 ## Online Mentorship
 *The Flexible Remote Plan*
 
-**$???<sup>*</sup> per 2-hour session** | **$?,???<sup>*</sup> for 8-session monthly package**
-<div style="font-size:60%;color:#888;"><sup>*</sup> Sorry, we just started, but please feel free to <a href="/contact">contact us</a> to get the price.</div>
+**$200 per 2-hour session** | **$1,500 for 8-session monthly package**
 
 For families who aren't local to central Florida or want a lighter touch, the online plan delivers focused, project-based mentorship through video calls.
 

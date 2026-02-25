@@ -22,7 +22,7 @@
    <animateTransform attributeName="transform" dur="5s" repeatCount="indefinite" type="rotate" values="0,-48,50;-2,-48,50;1,-48,50;0,-48,50"/>
   </path>
   <text y="150" fill="#2c3e50" font-family="'Playfair Display', serif" font-size="14px" font-weight="600" text-anchor="middle">In-Person</text>
-  <text y="168" fill="#d4a017" font-family="Inter, sans-serif" font-size="18px" font-weight="700" text-anchor="middle">$???/day</text>
+  <text y="168" fill="#d4a017" font-family="Inter, sans-serif" font-size="18px" font-weight="700" text-anchor="middle">$600/day</text>
  </g>
  <g transform="translate(600,30)">
   <rect x="-80" y="10" width="160" height="120" rx="12" fill="#fff" stroke="#1976d2" stroke-width="2"/>
@@ -44,7 +44,7 @@
   <rect x="-8" y="92" width="16" height="6" rx="1" fill="#444"/>
   <rect x="-20" y="98" width="40" height="4" rx="2" fill="#555"/>
   <text y="150" fill="#2c3e50" font-family="'Playfair Display', serif" font-size="14px" font-weight="600" text-anchor="middle">Online</text>
-  <text y="168" fill="#1976d2" font-family="Inter, sans-serif" font-size="18px" font-weight="700" text-anchor="middle">$???/session</text>
+  <text y="168" fill="#1976d2" font-family="Inter, sans-serif" font-size="18px" font-weight="700" text-anchor="middle">$200/session</text>
  </g>
  <g transform="translate(400,100)">
   <circle r="20" fill="#fff" stroke="#e8dcc0" stroke-width="2"/>
