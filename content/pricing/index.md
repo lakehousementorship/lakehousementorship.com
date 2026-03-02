@@ -60,10 +60,17 @@ For families who aren't local to central Florida or want a lighter touch, the on
 
 Have something specific in mind? Every family is different, and I'm happy to design a custom mentorship plan that fits your needs and schedule.
 
+**Available options:**
+- Easy Start Session - Initial low-pressure intro at your home or a public spot (e.g., library). <br/><b>$400 for 4 hours</b> - ideal for building trust before lakehouse days
+- Parent Participation - Join the session to observe or participate. <br/><b>+$50 per session</b> - stay involved without disrupting the flow
+- Live Camera Feed - Secure video access for real-time viewing. <br/><b>+$100 per session</b> - transparency from afar
+- Sibling Bundle - Share the experience <br/><b>15% off</b> for a second child from the same family
+- Progress Tracker App - Digital dashboard for updates and photos. <br/><b>+$50</b> per package - track growth easily
+- Extended Safety Consult - One-time tech/home safety review. <br/><b>+$200</b> - extra reassurance
+
 **Examples of custom arrangements:**
 - Weekend workshops (Saturday intensives)
 - Multi-week focused programs (e.g., "Build a drone from scratch in 3 weeks")
-- Sibling packages (mentoring two kids with overlapping interests)
 - Trial sessions for families who want to test the waters
 
 ---

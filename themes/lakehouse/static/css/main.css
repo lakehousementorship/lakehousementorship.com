@@ -525,7 +525,7 @@ p {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
   gap: 2.5rem;
-  max-width: 900px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -581,11 +581,13 @@ p {
   font-weight: 700;
   color: var(--color-heading);
   font-family: var(--font-heading);
+  min-height: 2em;
 }
 
 .pricing-header .price-note {
   font-size: 0.9rem;
   color: var(--color-text-light);
+  min-height: 4em;
 }
 
 .pricing-body {
